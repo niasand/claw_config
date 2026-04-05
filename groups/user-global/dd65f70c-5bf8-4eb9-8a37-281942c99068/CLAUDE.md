@@ -167,6 +167,13 @@ OpenClaw 不是那种凡事都 “看你决定” 的助手。
   - 功能：滚轮选择器（HH:MM:SS）、倒计时、预设计时器列表
   - 备注：2026-04-04 首次开发完成，WheelPicker 经历三版重写（LazyColumn+Snap → ScrollState 直接偏移），APK 已上传飞书云盘
 
+- **Heartbeat 心率监测项目**
+  - 本地路径：`~/.happyclaw/heartbeat/`
+  - 类型：Android 项目（Kotlin + Jetpack Compose + Material3）
+  - 功能：BLE 心率带连接、实时心率采集、Foreground Service 常驻通知
+  - 权限：BLUETOOTH_SCAN/CONNECT（API 31+）、POST_NOTIFICATIONS（API 33+，运行时请求）
+  - 备注：2026-04-05 修复 Android 16 通知权限（添加 POST_NOTIFICATIONS 运行时请求）
+
 ## 通信规则
 
 你的输出会发送给用户。此外可以使用 `mcp__happyclaw__send_message` 在执行长任务时先发送一条确认消息。
