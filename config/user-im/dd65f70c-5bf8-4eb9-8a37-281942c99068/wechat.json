@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "ilinkBotId": "689f0386be23@im.bot",
+  "baseUrl": "https://ilinkai.weixin.qq.com",
+  "bypassProxy": true,
+  "enabled": true,
+  "updatedAt": "2026-04-04T02:26:00.964Z",
+  "secret": {
+    "iv": "C/Fc/cLBhI+haCdo",
+    "tag": "SVmSfmvixfrnd6A8LzcaTA==",
+    "data": "hApb/BBNvcm8tNRf4JTcSvxfiVLDh86kLv2Zyx6ooNL/ph7dl1+gf5myATJa/M5LD23vv+jZmZ50Q5PnAuzg73znAHBHyxg//Q=="
+  }
+}

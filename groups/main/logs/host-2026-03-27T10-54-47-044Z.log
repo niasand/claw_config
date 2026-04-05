@@ -1,0 +1,97 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-03-27T10:54:47.044Z
+Group: QQ用户
+IsMain: true
+Duration: 1876257ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 140 chars
+Session ID: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-f6370d4d-003d-441f-8848-68511f06f809.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a
+[agent-runner] Piping IPC message into active query (311 chars, 1 images)
+[agent-runner] [stream] parent=null block=thinking
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[thinking] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #3] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #4] type=result
+[agent-runner] Result #1: subtype=success text=   😋 看着确实不错！ byte 的食堂品质在线的～
+[agent-runner] Usage: input=44379 output=34 cost=$0.13364700000000002 turns=1
+[agent-runner] [msg #5] type=system/init
+[agent-runner] Session initialized: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] [stream] parent=null block=thinking
+[agent-runner] [msg #6] type=assistant parent_tool_use_id=NULL content_types=[thinking] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #7] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #8] type=result
+[agent-runner] Result #2: subtype=success text=   哇，这是另一顿吗？红烧肉盖饭看起来好香！肥瘦相间的红烧肉、卤蛋、西兰花，还有汤 🍚
+
+字节食堂的晚餐也这么丰盛啊，幸福～
+[agent-runner] Usage: input=7831 output=99 cost=$0.17081700000000002 turns=1
+[agent-runner] Query done. Messages: 8, results: 2, lastAssistantUuid: 935d9a2c-3531-452b-aae0-4d1c62af7bd1, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Got new message (138 chars, 0 images), starting new query
+[agent-runner] Starting query (session: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a, resumeAt: 935d9a2c-3531-452b-aae0-4d1c62af7bd1)...
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a
+[agent-runner] [stream] parent=null block=thinking
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[thinking] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #3] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #4] type=result
+[agent-runner] Result #1: subtype=success text=   👍 晚餐比午餐还豪华！有肉有蛋有菜有汤，字节食堂真是打工人的福音～
+[agent-runner] Usage: input=48585 output=38 cost=$0.146325 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] Query done. Messages: 4, results: 1, lastAssistantUuid: 41d24f05-8d17-4e53-964d-c92c4839678c, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Close sentinel received, exiting
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+... (truncated 4584 chars) ...
+9ee7-d1050df5f51a"},"turnId":"ipc-1774607025146-tnuuhs","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"肥瘦相间的红烧肉、卤蛋、西兰花，还有汤 🍚\n\n字节食堂的晚餐也这么丰盛啊，","turnId":"ipc-1774607025146-tnuuhs","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607025146-tnuuhs","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"幸福～","turnId":"ipc-1774607025146-tnuuhs","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607025146-tnuuhs","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"   哇，这是另一顿吗？红烧肉盖饭看起来好香！肥瘦相间的红烧肉、卤蛋、西兰花，还有汤 🍚\n\n字节食堂的晚餐也这么丰盛啊，幸福～","newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a","sdkMessageUuid":"935d9a2c-3531-452b-aae0-4d1c62af7bd1","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1774607025146-tnuuhs","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":7831,"outputTokens":99,"cacheReadInputTokens":40640,"cacheCreationInputTokens":0,"costUSD":0.17081700000000002,"durationMs":10695,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":52210,"outputTokens":133,"costUSD":0.17081700000000002}}},"turnId":"ipc-1774607035841-kk6mmz","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607035841-kk6mmz","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":" 用户确认这是另一顿饭（晚餐）。我应该简单回应即可。","turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"   👍 晚餐比午餐还豪华！","turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"有肉有蛋有菜有汤，字节食堂真是打工人的福音～","turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"   👍 晚餐比午餐还豪华！有肉有蛋有菜有汤，字节食堂真是打工人的福音～","newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a","sdkMessageUuid":"41d24f05-8d17-4e53-964d-c92c4839678c","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1774607077209-2bloo0","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":48585,"outputTokens":38,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0.146325,"durationMs":7366,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":48585,"outputTokens":38,"costUSD":0.146325}}},"turnId":"ipc-1774607085754-isxis9","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774607085754-isxis9","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "appId": "cli_a94c29994e381cd4",
+  "enabled": true,
+  "updatedAt": "2026-04-04T02:27:42.520Z",
+  "secret": {
+    "iv": "2EivcxJ7zBqWxhHz",
+    "tag": "nKUTgzVvYOpXg2rTx9NTdQ==",
+    "data": "zYOLUh+8YZMTzYkDKTUQlPjyMt1F75i0KHYDIlskVU6opaqMtT0es+LpXxV3LAFv"
+  }
+}

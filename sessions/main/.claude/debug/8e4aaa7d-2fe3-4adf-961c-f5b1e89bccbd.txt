@@ -1,0 +1,130 @@
+2026-04-04T15:20:46.269Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/auto-commit-test/.claude/settings.json
+2026-04-04T15:20:46.270Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/auto-commit-test/.claude/settings.local.json
+2026-04-04T15:20:46.270Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.335Z [DEBUG] MDM settings load completed in 1ms
+2026-04-04T15:20:46.374Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.375Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS,CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD,CLAUDE_CODE_DISABLE_AUTO_MEMORY
+2026-04-04T15:20:46.377Z [DEBUG] [init] configureGlobalMTLS starting
+2026-04-04T15:20:46.377Z [DEBUG] [init] configureGlobalMTLS complete
+2026-04-04T15:20:46.378Z [DEBUG] [init] configureGlobalAgents starting
+2026-04-04T15:20:46.378Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+2026-04-04T15:20:46.378Z [DEBUG] [init] configureGlobalAgents complete
+2026-04-04T15:20:46.381Z [DEBUG] Error log sink initialized
+2026-04-04T15:20:46.388Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.389Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/auto-commit-test/.claude/settings.json
+2026-04-04T15:20:46.390Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/auto-commit-test/.claude/settings.local.json
+2026-04-04T15:20:46.390Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.394Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-04-04T15:20:46.394Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.429Z [DEBUG] [claudeai-mcp] No access token
+2026-04-04T15:20:46.436Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.437Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.437Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2026-04-04T15:20:46.438Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.438Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-04-04T15:20:46.443Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+2026-04-04T15:20:46.444Z [DEBUG] [STARTUP] Running setup()...
+2026-04-04T15:20:46.446Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.446Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.448Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/skills, project=[]
+2026-04-04T15:20:46.448Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.449Z [DEBUG] Error log sink initialized
+2026-04-04T15:20:46.450Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-04-04T15:20:46.450Z [DEBUG] Total plugin skills loaded: 0
+2026-04-04T15:20:46.450Z [DEBUG] Total plugin commands loaded: 0
+2026-04-04T15:20:46.451Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-04-04T15:20:46.454Z [DEBUG] [STARTUP] setup() completed in 10ms
+2026-04-04T15:20:46.454Z [DEBUG] Cleared CA certificates cache
+2026-04-04T15:20:46.454Z [DEBUG] Cleared mTLS configuration cache
+2026-04-04T15:20:46.455Z [DEBUG] Cleared proxy agent cache
+2026-04-04T15:20:46.455Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+2026-04-04T15:20:46.455Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-04-04T15:20:46.456Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.457Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.467Z [DEBUG] Total plugin agents loaded: 0
+2026-04-04T15:20:46.469Z [DEBUG] Git remote URL: null
+2026-04-04T15:20:46.469Z [DEBUG] No git remote URL found
+2026-04-04T15:20:46.474Z [DEBUG] Loaded 24 unique skills (24 unconditional, 0 conditional, managed: 0, user: 24, project: 0, additional: 0, legacy commands: 0)
+2026-04-04T15:20:46.474Z [DEBUG] getSkills returning: 24 skill dir commands, 0 plugin skills, 8 bundled skills, 0 builtin plugin skills
+2026-04-04T15:20:46.476Z [DEBUG] [STARTUP] Commands and agents loaded in 20ms
+2026-04-04T15:20:46.477Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-04-04T15:20:46.477Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-04-04T15:20:46.477Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-04-04T15:20:46.478Z [DEBUG] Starting background startup prefetches
+2026-04-04T15:20:46.478Z [DEBUG] [clientData] skipped: not OAuth subscriber or missing profile scope
+2026-04-04T15:20:46.479Z [DEBUG] [clientData] cache unchanged, skipping write
+2026-04-04T15:20:46.479Z [DEBUG] [STARTUP] MCP configs resolved in 45ms (awaited at +85ms)
+2026-04-04T15:20:46.481Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.481Z [DEBUG] Total LSP servers loaded: 0
+2026-04-04T15:20:46.482Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-04-04T15:20:46.482Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-04-04T15:20:46.482Z [DEBUG] LSP manager initialized with 0 servers
+2026-04-04T15:20:46.482Z [DEBUG] Cleared CA certificates cache
+2026-04-04T15:20:46.482Z [DEBUG] Cleared mTLS configuration cache
+2026-04-04T15:20:46.482Z [DEBUG] Cleared proxy agent cache
+2026-04-04T15:20:46.483Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+2026-04-04T15:20:46.483Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.484Z [DEBUG] LSP server manager initialized successfully
+2026-04-04T15:20:46.484Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-04-04T15:20:46.495Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.495Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.495Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-04-04T15:20:46.496Z [DEBUG] Found 0 hook matchers in settings
+2026-04-04T15:20:46.496Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-04-04T15:20:46.496Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-04-04T15:20:46.497Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-04-04T15:20:46.497Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+2026-04-04T15:20:46.500Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.508Z [WARN] auto mode disabled: tengu_auto_mode_config.enabled === "disabled" (circuit breaker)
+2026-04-04T15:20:46.510Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+2026-04-04T15:20:46.511Z [DEBUG] installPluginsForHeadless: starting
+2026-04-04T15:20:46.511Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+2026-04-04T15:20:46.516Z [DEBUG] Total plugin output styles loaded: 0
+2026-04-04T15:20:46.517Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:46.517Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /private/tmp/auto-commit-test/.claude/settings.local.json
+2026-04-04T15:20:46.526Z [DEBUG] Security messages are fresh (<1h old), skipping fetch
+2026-04-04T15:20:46.527Z [DEBUG] Watching for changes in setting files /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/settings.json...
+2026-04-04T15:20:46.528Z [DEBUG] Watching for changes in skill/command directories: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/skills...
+2026-04-04T15:20:46.535Z [DEBUG] Ripgrep first use test: PASSED (mode=embedded, path=/usr/local/Caskroom/claude-code/2.1.81/claude)
+2026-04-04T15:20:46.549Z [DEBUG] rg error (signal=undefined, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/plugins/cache: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/plugins/cache: No such file or directory (os error 2)
+), 0 results
+2026-04-04T15:20:46.582Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-04T15:20:46.582Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-04T15:20:46.582Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-04T15:20:46.583Z [DEBUG] Sending 28 skills via attachment (initial, 28 total sent)
+2026-04-04T15:20:46.583Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-04-04T15:20:46.584Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+2026-04-04T15:20:46.586Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-04-04T15:20:46.591Z [DEBUG] autocompact: tokens=2051 threshold=167000 effectiveWindow=180000
+2026-04-04T15:20:46.592Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+2026-04-04T15:20:46.606Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.81.df2; cc_entrypoint=sdk-ts; cch=00000;
+2026-04-04T15:20:46.607Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-04-04T15:20:46.607Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-04T15:20:46.608Z [DEBUG] [API:auth] OAuth token check starting
+2026-04-04T15:20:46.608Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-04-04T15:20:46.609Z [DEBUG] [API:auth] OAuth token check complete
+2026-04-04T15:20:46.610Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-04-04T15:20:46.953Z [DEBUG] Stream started - received first chunk
+2026-04-04T15:20:49.100Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+2026-04-04T15:20:49.103Z [DEBUG] LSP server manager shut down successfully
+2026-04-04T15:20:49.105Z [DEBUG] Failed to check metrics opt-out status: Auth error: No API key available
+2026-04-04T15:20:49.106Z [ERROR] Error: Error: Auth error: No API key available
+    at Gy8 (/$bunfs/root/src/entrypoints/cli.js:2670:23052)
+    at ADE (/$bunfs/root/src/entrypoints/cli.js:2670:23415)
+    at <anonymous> (/$bunfs/root/src/entrypoints/cli.js:96:27088)
+    at Wy8 (/$bunfs/root/src/entrypoints/cli.js:2670:23944)
+    at Zy8 (/$bunfs/root/src/entrypoints/cli.js:2670:24358)
+    at doExport (/$bunfs/root/src/entrypoints/cli.js:2670:25076)
+    at export (/$bunfs/root/src/entrypoints/cli.js:2670:24784)
+    at <anonymous> (/$bunfs/root/src/entrypoints/cli.js:138:158369)
+    at <anonymous> (/$bunfs/root/src/entrypoints/cli.js:138:158309)
+    at new Promise (native:1:11)
+2026-04-04T15:20:49.106Z [DEBUG] Metrics export disabled by organization setting
+2026-04-04T15:20:49.106Z [DEBUG] BigQuery metrics exporter flush complete
+2026-04-04T15:20:49.106Z [DEBUG] BigQuery metrics exporter flush complete
+2026-04-04T15:20:49.107Z [DEBUG] BigQuery metrics exporter shutdown complete
+2026-04-04T15:20:49.108Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:49.108Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+2026-04-04T15:20:49.108Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-04-04T15:20:49.108Z [DEBUG] Found 0 hook matchers in settings
+2026-04-04T15:20:49.108Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)

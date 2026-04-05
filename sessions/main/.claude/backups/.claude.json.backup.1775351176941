@@ -1,0 +1,37 @@
+{
+  "firstStartTime": "2026-04-02T16:29:12.848Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "migrationVersion": 11,
+  "userID": "7bb0f32480f10a008af28689e1a5cfbc31aa32b8540be9fffaf73336ea08125a",
+  "skillUsage": {
+    "install-skill": {
+      "usageCount": 2,
+      "lastUsedAt": 1775310061929
+    },
+    "follow-builders": {
+      "usageCount": 1,
+      "lastUsedAt": 1775269790014
+    },
+    "obsidian-cli": {
+      "usageCount": 1,
+      "lastUsedAt": 1775280124717
+    },
+    "feishu-cli-toolkit": {
+      "usageCount": 1,
+      "lastUsedAt": 1775291529031
+    },
+    "update-config": {
+      "usageCount": 1,
+      "lastUsedAt": 1775314908601
+    },
+    "feishu-cli-import": {
+      "usageCount": 3,
+      "lastUsedAt": 1775347318833
+    }
+  },
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1775316032685
+  }
+}

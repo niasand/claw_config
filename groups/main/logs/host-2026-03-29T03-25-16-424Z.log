@@ -1,0 +1,86 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-03-29T03:25:16.424Z
+Group: QQ用户
+IsMain: true
+Duration: 36701ms
+Exit Code: null
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 186 chars
+Session ID: 9dcbe75f-7262-4aeb-87d0-38fbf8b1d201
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: 9dcbe75f-7262-4aeb-87d0-38fbf8b1d201, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-7350a77a-4843-4649-a271-e205e0b72e88.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 9dcbe75f-7262-4aeb-87d0-38fbf8b1d201
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=API Error: 400 {"error":{"type":"invalid_request_error","message":"Invalid request: unsupported image format: application/octet-stream"},"type":"error"}
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] runQuery post-result SDK error (non-fatal, 1 result(s) already emitted): Claude Code returned an error result: API Error: 400 {"error":{"type":"invalid_request_error","message":"Invalid request: unsupported image format: application/octet-stream"},"type":"error"}
+[agent-runner] runQuery post-result error stack:
+Error: Claude Code returned an error result: API Error: 400 {"error":{"type":"invalid_request_error","message":"Invalid request: unsupported image format: application/octet-stream"},"type":"error"}
+    at cX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14433)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Got new message (154 chars, 0 images), starting new query
+[agent-runner] Starting query (session: 9dcbe75f-7262-4aeb-87d0-38fbf8b1d201, resumeAt: dcd43204-c813-4880-b180-4dd48000dfe7)...
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 9dcbe75f-7262-4aeb-87d0-38fbf8b1d201
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=API Error: 400 {"error":{"type":"invalid_request_error","message":"Invalid request: unsupported image format: application/octet-stream"},"type":"error"}
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] runQuery post-result SDK error (non-fatal, 1 result(s) already emitted): Claude Code returned an error result: API Error: 400 {"error":{"type":"invalid_request_error","message":"Invalid request: unsupported image format: application/octet-stream"},"type":"error"}
+[agent-runner] runQuery post-result error stack:
+Error: Claude Code returned an error result: API Error: 400 {"error":{"type":"invalid_request_error","message":"Invalid request: unsupported image format: application/octet-stream"},"type":"error"}
+    at cX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14433)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+
+
+=== Stdout ===
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 400 {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Invalid request: unsupported image format: application/octet-stream\"},\"type\":\"error\"}","newSessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201","sdkMessageUuid":"dcd43204-c813-4880-b180-4dd48000dfe7","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"04cda0e2-48c6-4c10-8c00-a34023d5bac8","sessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":1873,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1774754685183-k8fmqu","sessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"},"turnId":"ipc-1774754685183-k8fmqu","sessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 400 {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Invalid request: unsupported image format: application/octet-stream\"},\"type\":\"error\"}","newSessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201","sdkMessageUuid":"4756caac-4648-4f77-98aa-b3e49baafdec","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1774754698870-4800fb","sessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":1257,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1774754702484-cw1vx4","sessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"},"turnId":"ipc-1774754702484-cw1vx4","sessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"9dcbe75f-7262-4aeb-87d0-38fbf8b1d201"}
+---HAPPYCLAW_OUTPUT_END---
+
+
+=== Input ===
+{
+  "prompt": "<messages>\n<message sender=\"QQ用户\" source=\"qq:c2c:E7F14B61D7C08919743690175035F7D1\" time=\"2026-03-29T03:24:39.000Z\">[图片: downloads/qq/2026-03-29/qq_img_Pn6hM.o!.jpg]</message>\n</messages>",
+  "sessionId": "9dcbe75f-7262-4aeb-87d0-38fbf8b1d201",
+  "turnId": "04cda0e2-48c6-4c10-8c00-a34023d5bac8",
+  "groupFolder": "main",
+  "chatJid": "qq:c2c:E7F14B61D7C08919743690175035F7D1",
+  "isMain": true,
+  "isHome": true,
+  "isAdminHome": true,
+  "images": [
+    {
+      "data": "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",
+      "mimeType": "image/jpeg"
+    }
+  ]
+}

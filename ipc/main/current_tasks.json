@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a2caf457-63b7-4c03-8a30-b12c339ed024",
+    "groupFolder": "main",
+    "prompt": "执行每日 AI Builders Digest 任务，按以下步骤操作：\n\n## 第一步：生成 Digest\n\n运行 follow-builders skill，获取当天的 AI builders 摘要内容（中文）。\n\n## 第二步：发送消息给用户\n\n将摘要通过以下两个渠道发送给用户：\n1. QQ：使用 mcp__happyclaw__send_message 发送给用户的 QQ（chatJid: qq:c2c:E7F14B61D7C089197）\n2. 飞书：使用 feishu-cli-msg 技能发送给用户（open_id: ou_c4d77609d5fba99f3edb9a2fba1e14bc）\n\n## 第三步：保存到飞书文档\n\n将摘要内容保存为飞书文档：\n1. 使用 feishu-cli-write 技能创建一个新文档，标题格式：`AI Builders Digest - YYYY-MM-DD`\n2. 创建完成后，使用 feishu-cli-perm 技能将文档所有权转移给 open_id `ou_c4d77609d5fba99f3edb9a2fba1e14bc`，并保留原应用账号的 full_access 权限\n3. 将飞书文档链接通过 mcp__happyclaw__send_message 发送给用户（QQ渠道）\n\n### 再加一步，同时存到obsidian目录，/Users/zhiwei/Library/Mobile Documents/iCloud~md~obsidian/Documents/Clippings/ai_daily 下面\n\n## 注意事项\n- 日期使用当天实际日期\n- 文档内容保持 follow-builders skill 输出的原始格式\n- 如果 follow-builders skill 执行失败，发送一条简短通知告知用户今天 digest 生成失败",
+    "schedule_type": "cron",
+    "schedule_value": "0 9 * * *",
+    "status": "active",
+    "next_run": "2026-04-06T01:00:00.000Z"
+  },
+  {
+    "id": "8d51de7d-d14e-4d27-8031-feb81f481917",
+    "groupFolder": "main",
+    "prompt": "执行每日早报任务。请按以下步骤操作：\n\n## 第一步：抓取新闻热点\n\n使用 WebSearch 搜索以下内容，每个关键词搜索一次：\n\n**AI/Agent/大模型类**：\n- 搜索 \"AI 人工智能 最新新闻 热点\"（过去3小时）\n- 搜索 \"大模型 LLM 今日动态\"（过去3小时）\n- 搜索 \"AI Agent 智能体 最新消息\"（过去3小时）\n- 搜索 \"site:x.com AI 大模型\"（X平台英文AI动态）\n\n**国内时政社会类**：\n- 搜索 \"中国 今日新闻热点 时政\"（过去3小时）\n- 搜索 \"微博热搜 今天 社会新闻\"（过去3小时）\n\n## 第二步：筛选和整理\n\n从搜索结果中筛选出**过去3小时内**的新闻热点。去除：\n- 超过3小时的旧闻\n- 重复报道\n- 广告营销内容\n\n整理为两大部分：\n1. **AI/大模型/Agent 动态**（按重要性排序）\n2. **国内时政与社会热点**（按重要性排序）\n\n每条新闻包含：标题 + 一句话摘要 + 来源链接。\n\n## 第三步：生成飞书文档\n\n使用 feishu-cli-write 创建飞书文档，标题格式：📰 每日早报 YYYY-MM-DD'\n\n### 再加一步，同时存到obsidian目录，/Users/zhiwei/Library/Mobile Documents/iCloud~md~obsidian/Documents/Clippings/ai_daily 下面\n\n文档内容：\n- 顶部日期和生成时间\n- 第一部分：AI/大模型/Agent 动态\n- 第二部分：国内时政与社会热点\n- 底部注明：数据来源和抓取时间范围（过去3小时）\n\n创建完成后，按照用户偏好将文档所有权转移给 open_id ou_c4d77609d5fba99f3edb9a2fba1e14bc。\n\n## 第四步：推送通知\n\n1. 使用 send_message 将新闻摘要（精简版，每部分 top 5）发送给用户\n2. 在消息末尾附上飞书文档链接",
+    "schedule_type": "cron",
+    "schedule_value": "0 8 * * *",
+    "status": "active",
+    "next_run": "2026-04-06T00:00:00.000Z"
+  },
+  {
+    "id": "task-1774619206159-v6ov8v",
+    "groupFolder": "main",
+    "prompt": "请回顾今天与用户的所有对话内容，写一篇日记发给用户。\n\n日记应该包含：\n1. 今天的日期\n2. 与用户的原始对话记录，不要做总结或者更改。对该原始对话做下小的总结或者摘要\n3. 有趣的细节或值得记录的内容\n4. 温暖的结束语 (需要温暖的结束语，但是这几个字不要写到日记里)\n6. 调整下顺序，将与用户的原始对话记录放到日记最末尾，作为用户回忆的参考。其他的章节顺序保持不变。\n\n完成后使用 send_message 工具将日记发送给用户。\n\n### 最后一步\n1. 同时新创建一个飞书文档，存到飞书文档里。\n2. 然后利用obsidian的日记模板，将今天的日记创建到目录下：\n日记模板的目录：/Users/zhiwei/Library/Mobile Documents/iCloud~md~obsidian/Documents/copilot/attachments/template/日记模板.md\n存放日记的目录：/Users/zhiwei/Library/Mobile Documents/iCloud~md~obsidian/Documents/Memory/年度笔记/2026/\n\n",
+    "schedule_type": "cron",
+    "schedule_value": "0 21 * * *",
+    "status": "active",
+    "next_run": "2026-04-05T13:00:00.000Z"
+  }
+]

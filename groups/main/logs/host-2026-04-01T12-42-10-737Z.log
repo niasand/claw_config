@@ -1,0 +1,63 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-04-01T12:42:10.737Z
+Group: QQ用户
+IsMain: true
+Duration: 19076ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 139 chars
+Session ID: b0180e1f-2482-46c5-8534-22f5d2c2017f
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: b0180e1f-2482-46c5-8534-22f5d2c2017f, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-6868d955-73b5-4a26-b383-69b90e57bb4d.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: b0180e1f-2482-46c5-8534-22f5d2c2017f
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=API Error: 405 <html>
+<head><title>405 Not Allowed</title><script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/interfaceacting.js"></script><script src="//g.alicdn.com/frontend-lib/frontend-l
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] runQuery post-result SDK error (non-fatal, 1 result(s) already emitted): Claude Code returned an error result: API Error: 405 <html>
+<head><title>405 Not Allowed</title><script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/interfaceacting.js"></script><script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/antidom.js"></script><script src="//o.alicdn.com/frontend-lib/common-lib/jquery.min.js"></script></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[agent-runner] runQuery post-result error stack:
+Error: Claude Code returned an error result: API Error: 405 <html>
+<head><title>405 Not Allowed</title><script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/interfaceacting.js"></script><script src="//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/antidom.js"></script><script src="//o.alicdn.com/frontend-lib/common-lib/jquery.min.js"></script></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+    at pX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14611)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Received SIGTERM, exiting gracefully
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 405 <html>\r\n<head><title>405 Not Allowed</title><script src=\"//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/interfaceacting.js\"></script><script src=\"//g.alicdn.com/frontend-lib/frontend-lib/2.3.74/antidom.js\"></script><script src=\"//o.alicdn.com/frontend-lib/common-lib/jquery.min.js\"></script></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n","newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f","sdkMessageUuid":"e02c5a42-8049-4dab-b0a7-670c75918fea","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"6d15e44f-3b8a-49cd-844e-372478c5a362","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":398,"numTurns":1,"modelUsage":{"glm-5-turbo":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1775047314379-5cy5af","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"},"turnId":"ipc-1775047314379-5cy5af","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---

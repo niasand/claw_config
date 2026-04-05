@@ -1,0 +1,48 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-04-01T12:37:54.014Z
+Group: 飞书私聊
+IsMain: true
+Duration: 83586ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 177 chars
+Session ID: new
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: new, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-e1d00cf5-fa5e-41ea-bd62-385a2da8052c.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: b0180e1f-2482-46c5-8534-22f5d2c2017f
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=API Error: 400 {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"},"request_id":"202604012036328ecc8ce101ac47fb"}
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] runQuery post-result SDK error (non-fatal, 1 result(s) already emitted): Claude Code returned an error result: API Error: 400 {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"},"request_id":"202604012036328ecc8ce101ac47fb"}
+[agent-runner] runQuery post-result error stack:
+Error: Claude Code returned an error result: API Error: 400 {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"},"request_id":"202604012036328ecc8ce101ac47fb"}
+    at pX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14611)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Received SIGTERM, exiting gracefully
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 400 {\"error\":{\"code\":\"1211\",\"message\":\"模型不存在，请检查模型代码。\"},\"request_id\":\"202604012036328ecc8ce101ac47fb\"}","newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f","sdkMessageUuid":"e0b86b64-898a-4e9f-8e16-3d95b67e2864","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"om_x100b53e55a181d04b3c8be92d381342","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":1140,"numTurns":1,"modelUsage":{"GLM5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1775046993183-60on28","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"},"turnId":"ipc-1775046993183-60on28","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "jid": "feishu:oc_7b15f6ea95573c1189866306aa6ca9c7",
+      "name": "feishu:oc_7b15f6ea95573c1189866306aa6ca9c7",
+      "lastActivity": "2026-04-05T02:55:05.135Z",
+      "isRegistered": true
+    },
+    {
+      "jid": "feishu:oc_7ffd098a3510d159430e61df6f94e769",
+      "name": "个人群",
+      "lastActivity": "2026-04-01T12:36:25.215Z",
+      "isRegistered": false
+    }
+  ],
+  "lastSync": "2026-04-05T03:08:37.042Z"
+}

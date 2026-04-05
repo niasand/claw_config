@@ -1,0 +1,779 @@
+2026-04-05T00:00:25.195Z Spawning Claude Code: node /Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js --output-format stream-json --verbose --input-format stream-json --thinking adaptive --model glm-5-turbo --debug-to-stderr --resume 10ad7c01-9bf1-41fe-817d-22506af87c68 --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,TaskOutput,TaskStop,TeamCreate,TeamDelete,SendMessage,TodoWrite,ToolSearch,Skill,NotebookEdit,mcp__happyclaw__* --setting-sources=project,user --permission-mode bypassPermissions --allow-dangerously-skip-permissions --include-partial-messages --add-dir /Users/zhiwei/Downloads/happyclaw/data/groups/user-global/dd65f70c-5bf8-4eb9-8a37-281942c99068 --add-dir /Users/zhiwei/Downloads/happyclaw/data/memory/main
+2026-04-05T00:00:25.202Z [ProcessTransport] Writing to stdin: {"type":"user","message":{"role":"user","content":"<messages>\n<message sender=\"yang\" source=\"qq:
+2026-04-05T00:00:25.202Z [ProcessTransport] Writing to stdin: {"request_id":"56gtlbza95f","type":"control_request","request":{"subtype":"initialize","hooks":{"Pre
+2026-04-05T00:00:26.303Z 2026-04-05T00:00:26.301Z [DEBUG] MDM settings load completed in 1ms
+
+2026-04-05T00:00:26.323Z [ProcessTransport] Writing to stdin: {"type":"user","message":{"role":"user","content":"<messages>\n<message sender=\"yang\" source=\"qq:
+2026-04-05T00:00:26.339Z 2026-04-05T00:00:26.339Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+
+2026-04-05T00:00:26.340Z 2026-04-05T00:00:26.339Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/main/.claude/settings.json
+
+2026-04-05T00:00:26.340Z 2026-04-05T00:00:26.340Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS,CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD,CLAUDE_CODE_DISABLE_AUTO_MEMORY
+
+2026-04-05T00:00:26.342Z 2026-04-05T00:00:26.342Z [DEBUG] [init] configureGlobalMTLS starting
+
+2026-04-05T00:00:26.342Z 2026-04-05T00:00:26.342Z [DEBUG] [init] configureGlobalMTLS complete
+2026-04-05T00:00:26.342Z [DEBUG] [init] configureGlobalAgents starting
+
+2026-04-05T00:00:26.342Z 2026-04-05T00:00:26.342Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+
+2026-04-05T00:00:26.343Z 2026-04-05T00:00:26.342Z [DEBUG] [init] configureGlobalAgents complete
+
+2026-04-05T00:00:26.429Z 2026-04-05T00:00:26.428Z [DEBUG] Error log sink initialized
+
+2026-04-05T00:00:26.476Z 2026-04-05T00:00:26.476Z [DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/Users/zhiwei/Downloads/happyclaw/data/groups/user-global/dd65f70c-5bf8-4eb9-8a37-281942c99068"]
+2026-04-05T00:00:26.476Z [DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/Users/zhiwei/Downloads/happyclaw/data/memory/main"]
+
+2026-04-05T00:00:26.478Z 2026-04-05T00:00:26.478Z [DEBUG] [claudeai-mcp] No access token
+
+2026-04-05T00:00:26.483Z 2026-04-05T00:00:26.482Z [DEBUG] [STARTUP] Loading MCP configs...
+
+2026-04-05T00:00:26.484Z 2026-04-05T00:00:26.484Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/user-global/dd65f70c-5bf8-4eb9-8a37-281942c99068/.claude/settings.json
+
+2026-04-05T00:00:26.484Z 2026-04-05T00:00:26.484Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/user-global/dd65f70c-5bf8-4eb9-8a37-281942c99068/.claude/settings.local.json
+2026-04-05T00:00:26.484Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/main/.claude/settings.json
+
+2026-04-05T00:00:26.485Z 2026-04-05T00:00:26.485Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/main/.claude/settings.local.json
+
+2026-04-05T00:00:26.488Z 2026-04-05T00:00:26.488Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+
+2026-04-05T00:00:26.489Z 2026-04-05T00:00:26.489Z [DEBUG] [STARTUP] Running setup()...
+
+2026-04-05T00:00:26.492Z 2026-04-05T00:00:26.492Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/skills, project=[]
+
+2026-04-05T00:00:26.497Z 2026-04-05T00:00:26.496Z [DEBUG] Error log sink initialized
+
+2026-04-05T00:00:26.507Z 2026-04-05T00:00:26.507Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+
+2026-04-05T00:00:26.508Z 2026-04-05T00:00:26.508Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+
+2026-04-05T00:00:26.509Z 2026-04-05T00:00:26.508Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+
+2026-04-05T00:00:26.509Z 2026-04-05T00:00:26.509Z [DEBUG] Registered 0 hooks from 0 plugins
+
+2026-04-05T00:00:26.509Z 2026-04-05T00:00:26.509Z [DEBUG] Total plugin skills loaded: 0
+2026-04-05T00:00:26.509Z [DEBUG] Total plugin commands loaded: 0
+
+2026-04-05T00:00:26.511Z 2026-04-05T00:00:26.511Z [DEBUG] [STARTUP] setup() completed in 22ms
+2026-04-05T00:00:26.511Z [DEBUG] Cleared CA certificates cache
+
+2026-04-05T00:00:26.511Z 2026-04-05T00:00:26.511Z [DEBUG] Cleared mTLS configuration cache
+2026-04-05T00:00:26.511Z [DEBUG] Cleared proxy agent cache
+2026-04-05T00:00:26.511Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+
+2026-04-05T00:00:26.512Z 2026-04-05T00:00:26.512Z [DEBUG] [STARTUP] Loading commands and agents...
+
+2026-04-05T00:00:26.534Z 2026-04-05T00:00:26.534Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/vendor/ripgrep/x64-darwin/rg)
+
+2026-04-05T00:00:26.537Z 2026-04-05T00:00:26.537Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/commands: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/commands: No such file or directory (os error 2)
+), 0 results
+
+2026-04-05T00:00:26.543Z 2026-04-05T00:00:26.542Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/agents: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/agents: No such file or directory (os error 2)
+), 0 results
+
+2026-04-05T00:00:26.543Z 2026-04-05T00:00:26.542Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Library/Application Support/ClaudeCode/.claude/agents: IO error for operation on /Library/Application Support/ClaudeCode/.claude/agents: No such file or directory (os error 2)
+), 0 results
+
+2026-04-05T00:00:26.543Z 2026-04-05T00:00:26.543Z [DEBUG] Total plugin agents loaded: 0
+
+2026-04-05T00:00:26.566Z 2026-04-05T00:00:26.566Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Library/Application Support/ClaudeCode/.claude/commands: IO error for operation on /Library/Application Support/ClaudeCode/.claude/commands: No such file or directory (os error 2)
+), 0 results
+
+2026-04-05T00:00:26.570Z 2026-04-05T00:00:26.570Z [DEBUG] Loaded 24 unique skills (24 unconditional, 0 conditional, managed: 0, user: 24, project: 0, additional: 0, legacy commands: 0)
+
+2026-04-05T00:00:26.570Z 2026-04-05T00:00:26.570Z [DEBUG] getSkills returning: 24 skill dir commands, 0 plugin skills, 8 bundled skills, 0 builtin plugin skills
+
+2026-04-05T00:00:26.572Z 2026-04-05T00:00:26.572Z [DEBUG] [STARTUP] Commands and agents loaded in 60ms
+
+2026-04-05T00:00:26.572Z 2026-04-05T00:00:26.572Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+
+2026-04-05T00:00:26.572Z 2026-04-05T00:00:26.572Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+
+2026-04-05T00:00:26.572Z 2026-04-05T00:00:26.572Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+
+2026-04-05T00:00:26.573Z 2026-04-05T00:00:26.573Z [DEBUG] Starting background startup prefetches
+
+2026-04-05T00:00:26.573Z 2026-04-05T00:00:26.573Z [DEBUG] [Bootstrap] Skipped: no usable OAuth or API key
+
+2026-04-05T00:00:26.573Z 2026-04-05T00:00:26.573Z [DEBUG] [STARTUP] MCP configs resolved in 27ms (awaited at +91ms)
+
+2026-04-05T00:00:26.575Z 2026-04-05T00:00:26.575Z [DEBUG] Total LSP servers loaded: 0
+2026-04-05T00:00:26.575Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-04-05T00:00:26.575Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-04-05T00:00:26.575Z [DEBUG] LSP manager initialized with 0 servers
+
+2026-04-05T00:00:26.576Z 2026-04-05T00:00:26.575Z [DEBUG] Cleared CA certificates cache
+2026-04-05T00:00:26.575Z [DEBUG] Cleared mTLS configuration cache
+2026-04-05T00:00:26.575Z [DEBUG] Cleared proxy agent cache
+2026-04-05T00:00:26.575Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+
+2026-04-05T00:00:26.576Z 2026-04-05T00:00:26.576Z [DEBUG] LSP server manager initialized successfully
+
+2026-04-05T00:00:26.576Z 2026-04-05T00:00:26.576Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+
+2026-04-05T00:00:26.584Z 2026-04-05T00:00:26.584Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:26.585Z 2026-04-05T00:00:26.585Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+
+2026-04-05T00:00:26.585Z 2026-04-05T00:00:26.585Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+
+2026-04-05T00:00:26.590Z 2026-04-05T00:00:26.590Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=opt-in disabledBySettings=false model=glm-5-turbo modelSupported=false disableFastModeBreakerFires=false carouselAvailable=false canEnterAuto=false
+
+2026-04-05T00:00:26.590Z 2026-04-05T00:00:26.590Z [WARN] auto mode disabled: model glm-5-turbo does not support auto mode
+
+2026-04-05T00:00:26.591Z 2026-04-05T00:00:26.591Z [DEBUG] [auto-mode] kickOutOfAutoIfNeeded applying: ctx.mode=bypassPermissions ctx.prePlanMode=undefined reason=model
+
+2026-04-05T00:00:26.628Z 2026-04-05T00:00:26.628Z [DEBUG] Git remote URL: null
+2026-04-05T00:00:26.628Z [DEBUG] No git remote URL found
+
+2026-04-05T00:00:26.629Z 2026-04-05T00:00:26.629Z [DEBUG] Watching for changes in setting files /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/settings.json...
+
+2026-04-05T00:00:26.637Z 2026-04-05T00:00:26.637Z [DEBUG] "rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/plugins/cache: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+
+2026-04-05T00:00:26.652Z 2026-04-05T00:00:26.652Z [DEBUG] Watching for changes in skill/command directories: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/skills...
+
+2026-04-05T00:00:26.676Z 2026-04-05T00:00:26.676Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+
+2026-04-05T00:00:26.677Z 2026-04-05T00:00:26.677Z [DEBUG] installPluginsForHeadless: starting
+
+2026-04-05T00:00:26.677Z 2026-04-05T00:00:26.677Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+
+2026-04-05T00:00:26.708Z 2026-04-05T00:00:26.707Z [DEBUG] "rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/output-styles: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/output-styles: No such file or directory (os error 2)\n), 0 results"
+
+2026-04-05T00:00:26.708Z 2026-04-05T00:00:26.708Z [DEBUG] "rg error (signal=null, code=2, stderr: rg: /Library/Application Support/ClaudeCode/.claude/output-styles: IO error for operation on /Library/Application Support/ClaudeCode/.claude/output-styles: No such file or directory (os error 2)\n), 0 results"
+
+2026-04-05T00:00:26.708Z 2026-04-05T00:00:26.708Z [DEBUG] Total plugin output styles loaded: 0
+
+2026-04-05T00:00:26.709Z 2026-04-05T00:00:26.709Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:26.722Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"27b2739f-6771-4648-96bb-a3e
+2026-04-05T00:00:26.722Z 2026-04-05T00:00:26.722Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/main/.claude/settings.local.json
+
+2026-04-05T00:00:26.746Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"3006dd9e-13f0-4ee3-bd58-8b2
+2026-04-05T00:00:26.752Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"c7477a44-b64d-4fcc-85ea-1b1
+2026-04-05T00:00:26.770Z 2026-04-05T00:00:26.769Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+
+2026-04-05T00:00:26.770Z 2026-04-05T00:00:26.770Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-04-05T00:00:26.770Z 2026-04-05T00:00:26.770Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:00:26.770Z 2026-04-05T00:00:26.770Z [DEBUG] Sending 28 skills via attachment (initial, 28 total sent)
+
+2026-04-05T00:00:26.778Z 2026-04-05T00:00:26.778Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:00:26.781Z 2026-04-05T00:00:26.781Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+
+2026-04-05T00:00:26.786Z 2026-04-05T00:00:26.786Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:26.790Z 2026-04-05T00:00:26.790Z [DEBUG] autocompact: tokens=149238 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:00:26.792Z 2026-04-05T00:00:26.792Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:26.815Z 2026-04-05T00:00:26.815Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (57 -> 57 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:00:26.816Z 2026-04-05T00:00:26.816Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:26.817Z 2026-04-05T00:00:26.817Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:26.818Z 2026-04-05T00:00:26.817Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:26.820Z 2026-04-05T00:00:26.819Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:00:26.819Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:26.821Z 2026-04-05T00:00:26.821Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:00:26.822Z 2026-04-05T00:00:26.822Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:26.829Z 2026-04-05T00:00:26.829Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:00:27.533Z 2026-04-05T00:00:27.533Z [DEBUG] [mcp-registry] Loaded 47 official MCP URLs
+
+2026-04-05T00:00:29.060Z 2026-04-05T00:00:29.060Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:33.097Z 2026-04-05T00:00:33.097Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:00:33.097Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-04-05T00:00:33.097Z 2026-04-05T00:00:33.097Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-05T00:00:33.097Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:00:33.099Z 2026-04-05T00:00:33.099Z [DEBUG] autocompact: tokens=77282 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:00:33.099Z 2026-04-05T00:00:33.099Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:33.103Z 2026-04-05T00:00:33.102Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:33.102Z 2026-04-05T00:00:33.102Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (59 -> 59 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:00:33.103Z 2026-04-05T00:00:33.103Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:33.103Z 2026-04-05T00:00:33.103Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:33.104Z 2026-04-05T00:00:33.104Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-04-05T00:00:33.104Z 2026-04-05T00:00:33.104Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:33.105Z 2026-04-05T00:00:33.105Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:00:33.105Z 2026-04-05T00:00:33.105Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:33.109Z 2026-04-05T00:00:33.109Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:00:35.608Z 2026-04-05T00:00:35.608Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:37.204Z 2026-04-05T00:00:37.204Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:37.204Z 2026-04-05T00:00:37.204Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:37.204Z 2026-04-05T00:00:37.204Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:37.204Z 2026-04-05T00:00:37.204Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:37.205Z 2026-04-05T00:00:37.205Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.845; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:37.205Z 2026-04-05T00:00:37.205Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.205Z 2026-04-05T00:00:37.205Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.205Z 2026-04-05T00:00:37.205Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:00:37.205Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:37.206Z 2026-04-05T00:00:37.206Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.845; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:37.206Z 2026-04-05T00:00:37.206Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.206Z 2026-04-05T00:00:37.206Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.206Z 2026-04-05T00:00:37.206Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:00:37.206Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:37.207Z 2026-04-05T00:00:37.206Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.845; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:37.207Z 2026-04-05T00:00:37.207Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.207Z 2026-04-05T00:00:37.207Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.207Z 2026-04-05T00:00:37.207Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:00:37.207Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:37.207Z 2026-04-05T00:00:37.207Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.845; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:37.207Z 2026-04-05T00:00:37.207Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.208Z 2026-04-05T00:00:37.207Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.208Z 2026-04-05T00:00:37.208Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-04-05T00:00:37.208Z 2026-04-05T00:00:37.208Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:37.210Z 2026-04-05T00:00:37.210Z [DEBUG] [API:auth] OAuth token check complete
+2026-04-05T00:00:37.210Z [DEBUG] [API:auth] OAuth token check complete
+2026-04-05T00:00:37.210Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:00:37.210Z 2026-04-05T00:00:37.210Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:00:37.211Z 2026-04-05T00:00:37.211Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.211Z 2026-04-05T00:00:37.211Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.211Z 2026-04-05T00:00:37.211Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.212Z 2026-04-05T00:00:37.212Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:37.213Z 2026-04-05T00:00:37.213Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=web_search_tool
+
+2026-04-05T00:00:37.215Z 2026-04-05T00:00:37.215Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=web_search_tool
+
+2026-04-05T00:00:37.216Z 2026-04-05T00:00:37.216Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=web_search_tool
+
+2026-04-05T00:00:37.217Z 2026-04-05T00:00:37.217Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=web_search_tool
+
+2026-04-05T00:00:37.744Z 2026-04-05T00:00:37.743Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:38.476Z 2026-04-05T00:00:38.475Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:38.540Z 2026-04-05T00:00:38.540Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:38.548Z 2026-04-05T00:00:38.548Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:53.310Z 2026-04-05T00:00:53.310Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:00:53.310Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-04-05T00:00:53.310Z 2026-04-05T00:00:53.310Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-05T00:00:53.310Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:00:53.312Z 2026-04-05T00:00:53.312Z [DEBUG] autocompact: tokens=80135 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:00:53.312Z 2026-04-05T00:00:53.312Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:53.315Z 2026-04-05T00:00:53.315Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (61 -> 61 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:00:53.315Z 2026-04-05T00:00:53.315Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:53.316Z 2026-04-05T00:00:53.316Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:53.317Z 2026-04-05T00:00:53.316Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:53.317Z 2026-04-05T00:00:53.317Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:00:53.317Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:53.318Z 2026-04-05T00:00:53.318Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:00:53.319Z 2026-04-05T00:00:53.319Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:53.324Z 2026-04-05T00:00:53.324Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:00:54.254Z 2026-04-05T00:00:54.254Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:55.876Z 2026-04-05T00:00:55.876Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:55.876Z 2026-04-05T00:00:55.876Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.845; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.845; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:00:55.877Z 2026-04-05T00:00:55.877Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:55.878Z 2026-04-05T00:00:55.877Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:55.878Z 2026-04-05T00:00:55.878Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:00:55.878Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:00:55.879Z 2026-04-05T00:00:55.879Z [DEBUG] [API:auth] OAuth token check complete
+2026-04-05T00:00:55.879Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:00:55.879Z 2026-04-05T00:00:55.879Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:55.880Z 2026-04-05T00:00:55.880Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:00:55.881Z 2026-04-05T00:00:55.881Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=web_search_tool
+
+2026-04-05T00:00:55.882Z 2026-04-05T00:00:55.882Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=web_search_tool
+
+2026-04-05T00:00:56.462Z 2026-04-05T00:00:56.462Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:00:56.510Z 2026-04-05T00:00:56.509Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:01:23.931Z 2026-04-05T00:01:23.931Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:23.931Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:01:23.931Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:01:23.931Z 2026-04-05T00:01:23.931Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:23.933Z 2026-04-05T00:01:23.933Z [DEBUG] autocompact: tokens=83281 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:01:23.933Z 2026-04-05T00:01:23.933Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:01:23.936Z 2026-04-05T00:01:23.936Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (63 -> 63 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:01:23.936Z 2026-04-05T00:01:23.936Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:01:23.937Z 2026-04-05T00:01:23.937Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:23.937Z 2026-04-05T00:01:23.937Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:23.937Z 2026-04-05T00:01:23.937Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:01:23.937Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:01:23.979Z 2026-04-05T00:01:23.979Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:01:23.980Z 2026-04-05T00:01:23.980Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:23.982Z 2026-04-05T00:01:23.982Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:01:25.069Z 2026-04-05T00:01:25.069Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:01:27.433Z 2026-04-05T00:01:27.433Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:27.433Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:01:27.433Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:01:27.433Z 2026-04-05T00:01:27.433Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:27.434Z 2026-04-05T00:01:27.434Z [DEBUG] autocompact: tokens=84507 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:01:27.434Z 2026-04-05T00:01:27.434Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:01:27.435Z 2026-04-05T00:01:27.435Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (65 -> 65 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:01:27.436Z 2026-04-05T00:01:27.435Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:01:27.436Z 2026-04-05T00:01:27.436Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:27.436Z 2026-04-05T00:01:27.436Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:27.436Z 2026-04-05T00:01:27.436Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-04-05T00:01:27.436Z 2026-04-05T00:01:27.436Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:01:27.437Z 2026-04-05T00:01:27.437Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:01:27.437Z 2026-04-05T00:01:27.437Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:27.442Z 2026-04-05T00:01:27.441Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:01:28.167Z 2026-04-05T00:01:28.167Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:01:41.055Z 2026-04-05T00:01:41.055Z [DEBUG] Write tool validation error: File has not been read yet. Read it first before writing to it.
+
+2026-04-05T00:01:41.057Z 2026-04-05T00:01:41.057Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:41.057Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:01:41.057Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:01:41.057Z 2026-04-05T00:01:41.057Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:41.058Z 2026-04-05T00:01:41.058Z [DEBUG] autocompact: tokens=86063 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:01:41.059Z 2026-04-05T00:01:41.059Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:01:41.062Z 2026-04-05T00:01:41.062Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (67 -> 67 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:01:41.062Z 2026-04-05T00:01:41.062Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:01:41.063Z 2026-04-05T00:01:41.063Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:41.063Z 2026-04-05T00:01:41.063Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:41.063Z 2026-04-05T00:01:41.063Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:01:41.063Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:01:41.065Z 2026-04-05T00:01:41.065Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:01:41.065Z 2026-04-05T00:01:41.065Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:41.069Z 2026-04-05T00:01:41.069Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:01:41.863Z 2026-04-05T00:01:41.863Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:01:51.857Z 2026-04-05T00:01:51.856Z [DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+
+2026-04-05T00:01:51.857Z 2026-04-05T00:01:51.857Z [DEBUG] Looking for shell config file: /Users/zhiwei/.zshrc
+
+2026-04-05T00:01:51.858Z 2026-04-05T00:01:51.857Z [DEBUG] Snapshots directory: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/shell-snapshots
+
+2026-04-05T00:01:51.858Z 2026-04-05T00:01:51.858Z [DEBUG] Creating snapshot at: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/shell-snapshots/snapshot-zsh-1775347311857-pa45te.sh
+2026-04-05T00:01:51.858Z [DEBUG] Execution timeout: 10000ms
+
+2026-04-05T00:01:53.710Z 2026-04-05T00:01:53.710Z [DEBUG] Shell snapshot created successfully (185657 bytes)
+
+2026-04-05T00:01:53.712Z 2026-04-05T00:01:53.712Z [DEBUG] No session environment scripts found
+
+2026-04-05T00:01:53.713Z 2026-04-05T00:01:53.713Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-04-05T00:01:53.758Z 2026-04-05T00:01:53.758Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:53.758Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:01:53.758Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:01:53.758Z 2026-04-05T00:01:53.758Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:53.759Z 2026-04-05T00:01:53.759Z [DEBUG] autocompact: tokens=87595 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:01:53.759Z 2026-04-05T00:01:53.759Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:01:53.761Z 2026-04-05T00:01:53.761Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (69 -> 69 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:01:53.761Z 2026-04-05T00:01:53.761Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:01:53.761Z 2026-04-05T00:01:53.761Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:53.762Z 2026-04-05T00:01:53.762Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:53.762Z 2026-04-05T00:01:53.762Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:01:53.762Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:01:53.763Z 2026-04-05T00:01:53.762Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:01:53.763Z 2026-04-05T00:01:53.763Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:53.765Z 2026-04-05T00:01:53.765Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:01:54.575Z 2026-04-05T00:01:54.574Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:01:56.566Z 2026-04-05T00:01:56.566Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:56.566Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-04-05T00:01:56.566Z 2026-04-05T00:01:56.566Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-05T00:01:56.566Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:56.567Z 2026-04-05T00:01:56.567Z [DEBUG] autocompact: tokens=87797 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:01:56.568Z 2026-04-05T00:01:56.567Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:01:56.569Z 2026-04-05T00:01:56.569Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (71 -> 71 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:01:56.569Z 2026-04-05T00:01:56.569Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:01:56.570Z 2026-04-05T00:01:56.570Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:56.570Z 2026-04-05T00:01:56.570Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:56.570Z 2026-04-05T00:01:56.570Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:01:56.570Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:01:56.605Z 2026-04-05T00:01:56.605Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:01:56.605Z 2026-04-05T00:01:56.605Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:56.607Z 2026-04-05T00:01:56.607Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:01:57.607Z 2026-04-05T00:01:57.607Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:01:58.842Z 2026-04-05T00:01:58.842Z [DEBUG] Preserving file permissions: 100600
+2026-04-05T00:01:58.842Z [DEBUG] Writing to temp file: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/.claude.json.tmp.22244.1775347318842
+
+2026-04-05T00:01:58.842Z 2026-04-05T00:01:58.842Z [DEBUG] Temp file written successfully, size: 862 bytes
+
+2026-04-05T00:01:58.842Z 2026-04-05T00:01:58.842Z [DEBUG] Applied original permissions to temp file
+2026-04-05T00:01:58.842Z [DEBUG] Renaming /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/.claude.json.tmp.22244.1775347318842 to /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/.claude.json
+
+2026-04-05T00:01:58.843Z 2026-04-05T00:01:58.843Z [DEBUG] File /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/.claude.json written atomically
+
+2026-04-05T00:01:58.849Z 2026-04-05T00:01:58.848Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:58.848Z 2026-04-05T00:01:58.848Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:58.848Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:01:58.848Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:01:58.849Z 2026-04-05T00:01:58.849Z [DEBUG] SkillTool returning 2 newMessages for skill feishu-cli-import
+
+2026-04-05T00:01:58.852Z 2026-04-05T00:01:58.851Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:01:58.851Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:01:58.851Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:01:58.852Z 2026-04-05T00:01:58.852Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:01:58.853Z 2026-04-05T00:01:58.853Z [DEBUG] autocompact: tokens=89502 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:01:58.853Z 2026-04-05T00:01:58.853Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:01:58.855Z 2026-04-05T00:01:58.855Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (73 -> 73 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:01:58.855Z 2026-04-05T00:01:58.855Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:01:58.855Z 2026-04-05T00:01:58.855Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:58.855Z 2026-04-05T00:01:58.855Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:58.856Z 2026-04-05T00:01:58.856Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:01:58.856Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:01:58.857Z 2026-04-05T00:01:58.857Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:01:58.858Z 2026-04-05T00:01:58.858Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:01:58.860Z 2026-04-05T00:01:58.860Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:01:59.660Z 2026-04-05T00:01:59.659Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:01.780Z 2026-04-05T00:02:01.780Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-04-05T00:02:01.826Z 2026-04-05T00:02:01.826Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:02:01.826Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:02:01.826Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:02:01.826Z 2026-04-05T00:02:01.826Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:02:01.826Z 2026-04-05T00:02:01.826Z [DEBUG] autocompact: tokens=91100 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:02:01.827Z 2026-04-05T00:02:01.827Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:02:01.828Z 2026-04-05T00:02:01.828Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (75 -> 75 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79]); [73] assistant(id=msg_2026040508015946b0688957f94c90, tool_uses=[call_6cbba2fa299242578ad4a03f]); [74] user(tool_results=[call_6cbba2fa299242578ad4a03f])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:02:01.828Z 2026-04-05T00:02:01.828Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:02:01.829Z 2026-04-05T00:02:01.828Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:01.829Z 2026-04-05T00:02:01.829Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:01.829Z 2026-04-05T00:02:01.829Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:02:01.829Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:02:01.829Z 2026-04-05T00:02:01.829Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:02:01.830Z 2026-04-05T00:02:01.830Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:01.832Z 2026-04-05T00:02:01.832Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:02:02.549Z 2026-04-05T00:02:02.549Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:04.002Z 2026-04-05T00:02:04.002Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-04-05T00:02:08.902Z 2026-04-05T00:02:08.902Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+
+2026-04-05T00:02:08.902Z 2026-04-05T00:02:08.902Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:02:08.902Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-05T00:02:08.902Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:02:08.902Z 2026-04-05T00:02:08.902Z [DEBUG] autocompact: tokens=91308 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:02:08.903Z 2026-04-05T00:02:08.902Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:02:08.904Z 2026-04-05T00:02:08.904Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (77 -> 77 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79]); [73] assistant(id=msg_2026040508015946b0688957f94c90, tool_uses=[call_6cbba2fa299242578ad4a03f]); [74] user(tool_results=[call_6cbba2fa299242578ad4a03f]); [75] assistant(id=msg_20260405080202edce0f9e346c4c7d, tool_uses=[call_da39c4b04cc349fdaa890ad5]); [76] user(tool_results=[call_da39c4b04cc349fdaa890ad5])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:02:08.904Z 2026-04-05T00:02:08.904Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:02:08.904Z 2026-04-05T00:02:08.904Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:08.904Z 2026-04-05T00:02:08.904Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:08.904Z 2026-04-05T00:02:08.904Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-04-05T00:02:08.904Z 2026-04-05T00:02:08.904Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:02:08.905Z 2026-04-05T00:02:08.905Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:02:08.905Z 2026-04-05T00:02:08.905Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:08.908Z 2026-04-05T00:02:08.908Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:02:11.882Z 2026-04-05T00:02:11.882Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:13.725Z 2026-04-05T00:02:13.725Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-04-05T00:02:15.741Z 2026-04-05T00:02:15.740Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-04-05T00:02:17.768Z 2026-04-05T00:02:17.768Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:02:17.768Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:02:17.768Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:02:17.768Z 2026-04-05T00:02:17.768Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:02:17.769Z 2026-04-05T00:02:17.769Z [DEBUG] autocompact: tokens=91763 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:02:17.769Z 2026-04-05T00:02:17.769Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:02:17.772Z 2026-04-05T00:02:17.772Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (79 -> 79 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79]); [73] assistant(id=msg_2026040508015946b0688957f94c90, tool_uses=[call_6cbba2fa299242578ad4a03f]); [74] user(tool_results=[call_6cbba2fa299242578ad4a03f]); [75] assistant(id=msg_20260405080202edce0f9e346c4c7d, tool_uses=[call_da39c4b04cc349fdaa890ad5]); [76] user(tool_results=[call_da39c4b04cc349fdaa890ad5]); [77] assistant(id=msg_2026040508021166fdc3b6177d4807, tool_uses=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [78] user(tool_results=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:02:17.772Z 2026-04-05T00:02:17.772Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:02:17.773Z 2026-04-05T00:02:17.773Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:17.774Z 2026-04-05T00:02:17.774Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:17.774Z 2026-04-05T00:02:17.774Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:02:17.774Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:02:17.775Z 2026-04-05T00:02:17.775Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:02:17.775Z 2026-04-05T00:02:17.775Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:17.780Z 2026-04-05T00:02:17.780Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:02:20.146Z 2026-04-05T00:02:20.146Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:22.060Z 2026-04-05T00:02:22.060Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:02:22.060Z 2026-04-05T00:02:22.059Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:02:22.060Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-04-05T00:02:22.060Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-04-05T00:02:22.060Z 2026-04-05T00:02:22.060Z [DEBUG] autocompact: tokens=91935 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:02:22.061Z 2026-04-05T00:02:22.060Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:02:22.062Z 2026-04-05T00:02:22.062Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (81 -> 81 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79]); [73] assistant(id=msg_2026040508015946b0688957f94c90, tool_uses=[call_6cbba2fa299242578ad4a03f]); [74] user(tool_results=[call_6cbba2fa299242578ad4a03f]); [75] assistant(id=msg_20260405080202edce0f9e346c4c7d, tool_uses=[call_da39c4b04cc349fdaa890ad5]); [76] user(tool_results=[call_da39c4b04cc349fdaa890ad5]); [77] assistant(id=msg_2026040508021166fdc3b6177d4807, tool_uses=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [78] user(tool_results=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [79] assistant(id=msg_20260405080219ba802ce391ad4cbe, tool_uses=[call_376e496e660843758b035ec7]); [80] user(tool_results=[call_376e496e660843758b035ec7])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:02:22.062Z 2026-04-05T00:02:22.062Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:02:22.063Z 2026-04-05T00:02:22.062Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:22.063Z 2026-04-05T00:02:22.063Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:22.063Z 2026-04-05T00:02:22.063Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:02:22.063Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:02:22.064Z 2026-04-05T00:02:22.064Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:02:22.064Z 2026-04-05T00:02:22.064Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:22.067Z 2026-04-05T00:02:22.067Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:02:23.107Z 2026-04-05T00:02:23.107Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:28.294Z 2026-04-05T00:02:28.294Z [DEBUG] MCP server "happyclaw": Calling MCP tool: send_message
+
+2026-04-05T00:02:28.299Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"2eb0166f-f27f-4274-8c9a-802
+2026-04-05T00:02:28.301Z 2026-04-05T00:02:28.301Z [DEBUG] MCP server "happyclaw": Tool 'send_message' completed successfully in 8ms
+
+2026-04-05T00:02:28.317Z 2026-04-05T00:02:28.317Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-04-05T00:02:30.129Z 2026-04-05T00:02:30.129Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:02:30.129Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-04-05T00:02:30.130Z 2026-04-05T00:02:30.129Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-05T00:02:30.129Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:02:30.130Z 2026-04-05T00:02:30.130Z [DEBUG] autocompact: tokens=92973 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:02:30.131Z 2026-04-05T00:02:30.131Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:02:30.133Z 2026-04-05T00:02:30.133Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (83 -> 83 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79]); [73] assistant(id=msg_2026040508015946b0688957f94c90, tool_uses=[call_6cbba2fa299242578ad4a03f]); [74] user(tool_results=[call_6cbba2fa299242578ad4a03f]); [75] assistant(id=msg_20260405080202edce0f9e346c4c7d, tool_uses=[call_da39c4b04cc349fdaa890ad5]); [76] user(tool_results=[call_da39c4b04cc349fdaa890ad5]); [77] assistant(id=msg_2026040508021166fdc3b6177d4807, tool_uses=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [78] user(tool_results=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [79] assistant(id=msg_20260405080219ba802ce391ad4cbe, tool_uses=[call_376e496e660843758b035ec7]); [80] user(tool_results=[call_376e496e660843758b035ec7]); [81] assistant(id=msg_20260405080222b40ffa4944eb4d43, tool_uses=[call_8b1afb0395554f0895f03b3a,call_447b2dbb115f4542b462a996]); [82] user(tool_results=[call_8b1afb0395554f0895f03b3a,call_447b2dbb115f4542b462a996])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:02:30.134Z 2026-04-05T00:02:30.133Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:02:30.135Z 2026-04-05T00:02:30.135Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:30.135Z 2026-04-05T00:02:30.135Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:30.135Z 2026-04-05T00:02:30.135Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:02:30.135Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:02:30.174Z 2026-04-05T00:02:30.174Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:02:30.174Z 2026-04-05T00:02:30.174Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:30.177Z 2026-04-05T00:02:30.177Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:02:31.023Z 2026-04-05T00:02:31.022Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:32.760Z 2026-04-05T00:02:32.760Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-04-05T00:02:32.760Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-04-05T00:02:32.760Z 2026-04-05T00:02:32.760Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-04-05T00:02:32.760Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-04-05T00:02:32.761Z 2026-04-05T00:02:32.760Z [DEBUG] autocompact: tokens=92878 threshold=167000 effectiveWindow=180000
+
+2026-04-05T00:02:32.761Z 2026-04-05T00:02:32.761Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-04-05T00:02:32.762Z 2026-04-05T00:02:32.762Z [ERROR] "Error: Error: ensureToolResultPairing: repaired missing tool_result blocks (85 -> 85 messages). Message structure: [0] user; [1] assistant(id=msg_202604050733232607fc1caf484237, tool_uses=[call_3dd5e5f4261941a895417f0a]); [2] user(tool_results=[call_3dd5e5f4261941a895417f0a]); [3] assistant(id=msg_20260405073327707e196a53e04be0, tool_uses=[]); [4] user; [5] assistant(id=msg_202604050733472da0b917a88440dd, tool_uses=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [6] user(tool_results=[call_bfabdf97d864461fbefcdc49,call_433532905c7b444999410212]); [7] assistant(id=msg_202604050733544192a2fa523f48d5, tool_uses=[]); [8] user; [9] assistant(id=msg_2026040507340778c7e539492d4b23, tool_uses=[]); [10] user; [11] assistant(id=msg_20260405073418d395e59836344141, tool_uses=[]); [12] user; [13] assistant(id=msg_2026040507350829e4b6dae5744df5, tool_uses=[call_75446412c1e746b19f33002c]); [14] user(tool_results=[call_75446412c1e746b19f33002c]); [15] assistant(id=msg_202604050735170c7aa1783918488c, tool_uses=[call_bbb7a6f0ca8b41c48aec28ed]); [16] user(tool_results=[call_bbb7a6f0ca8b41c48aec28ed]); [17] assistant(id=msg_202604050735196307ab73e7db4719, tool_uses=[call_bc021a48e0a64b73bdd2aad9]); [18] user(tool_results=[call_bc021a48e0a64b73bdd2aad9]); [19] assistant(id=msg_20260405073522cc7ee42bb37e4398, tool_uses=[call_7dd40c3e203443c8ac16f5e3]); [20] user(tool_results=[call_7dd40c3e203443c8ac16f5e3]); [21] assistant(id=msg_202604050735268dd20b194f9d4bbe, tool_uses=[call_8d69ce2a923945fe8c73cd30]); [22] user(tool_results=[call_8d69ce2a923945fe8c73cd30]); [23] assistant(id=msg_20260405073528a133460486324eb7, tool_uses=[call_9a2d4f28acc5421b8837868f]); [24] user(tool_results=[call_9a2d4f28acc5421b8837868f]); [25] assistant(id=msg_20260405073537ce41f3130eff4656, tool_uses=[call_e0acced795224f7aa1e16c86]); [26] user(tool_results=[call_e0acced795224f7aa1e16c86]); [27] assistant(id=msg_202604050735437addf91b958b4791, tool_uses=[]); [28] user; [29] assistant(id=msg_202604050736264e7065116040477f, tool_uses=[]); [30] user; [31] assistant(id=msg_20260405073702eaab4959cf4d4178, tool_uses=[call_6f6404a3036f4ea2939c0e7d,call_c18fd9177ddd454bbe4ef263]); [32] user(tool_results=[call_c18fd9177ddd454bbe4ef263,call_6f6404a3036f4ea2939c0e7d]); [33] assistant(id=msg_2026040507372165e4a348fa034771, tool_uses=[], server_tool_uses=[call_8cf7e30e2c5d4ed5a5f3d95e]); [34] user; [35] assistant(id=msg_202604050738389091a202aa2b4fc3, tool_uses=[]); [36] user; [37] assistant(id=msg_202604050740437b362509eebc48d3, tool_uses=[call_5c4cdd705fae425cb8322fb9]); [38] user(tool_results=[call_5c4cdd705fae425cb8322fb9]); [39] assistant(id=msg_2026040507404662067ee889564566, tool_uses=[call_09b002e0d1684368ac0b224c]); [40] user(tool_results=[call_09b002e0d1684368ac0b224c]); [41] assistant(id=msg_20260405074049eaeb754eee9842ff, tool_uses=[]); [42] user; [43] assistant(id=msg_202604050741509ad724a4e11e43fb, tool_uses=[], server_tool_uses=[call_56bbd2cb69c24ef0a39a40cb]); [44] user; [45] assistant(id=msg_20260405074312ef7a45c2a716423c, tool_uses=[]); [46] user; [47] assistant(id=msg_2026040507435198d5bcb8805543e1, tool_uses=[call_0a7f477f78fa456cb89c642b,call_b1cd3a91eaa344c2bac8ede9], server_tool_uses=[call_0421324aa7ef4988962afcb1]); [48] user(tool_results=[call_b1cd3a91eaa344c2bac8ede9,call_0a7f477f78fa456cb89c642b]); [49] assistant(id=msg_20260405074507d652d68abf854aad, tool_uses=[]); [50] user; [51] assistant(id=msg_20260405074719f319356b2e89469a, tool_uses=[call_a055077e2ba148f29b438ad1,call_b42e2859c3ce4121b3839a99]); [52] user(tool_results=[call_b42e2859c3ce4121b3839a99,call_a055077e2ba148f29b438ad1]); [53] assistant(id=msg_20260405074732bbe11061b22e42cb, tool_uses=[]); [54] user; [55] assistant(id=msg_202604050754329d43e01f5d5a4012, tool_uses=[], server_tool_uses=[call_a6c7596fe9ca4ca3a23b27ea]); [56] user; [57] assistant(id=msg_202604050800287a86e783f8e44386, tool_uses=[call_8b560353926b4be78ddda478]); [58] user(tool_results=[call_8b560353926b4be78ddda478]); [59] assistant(id=msg_20260405080035b37525844c3a4c65, tool_uses=[call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194,call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e]); [60] user(tool_results=[call_d59bc6ca077e4504a3b9422a,call_71f2d9b055cb4cdab9cdee4e,call_5567f3567f2f4b279455f50b,call_0ddb5d38477340b99c486194]); [61] assistant(id=msg_202604050800545b2ccf0a9a8640e1, tool_uses=[call_e7def9bfd4f740d1ae6fa1c2,call_a2d6e1db60684173b208ece3]); [62] user(tool_results=[call_a2d6e1db60684173b208ece3,call_e7def9bfd4f740d1ae6fa1c2]); [63] assistant(id=msg_2026040508012418e750c4360b4d8e, tool_uses=[call_41c3dcbf39094736af06c84a]); [64] user(tool_results=[call_41c3dcbf39094736af06c84a]); [65] assistant(id=msg_2026040508012883cc7615c14a4d07, tool_uses=[call_03acbc1243e54aa48957bc2f]); [66] user(tool_results=[call_03acbc1243e54aa48957bc2f]); [67] assistant(id=msg_20260405080141a62bda1b661541be, tool_uses=[call_2b6cd90679ae421097e27b82]); [68] user(tool_results=[call_2b6cd90679ae421097e27b82]); [69] assistant(id=msg_2026040508015405ac6ec7953741ad, tool_uses=[call_df38a9d6e6ca4efba44724c2]); [70] user(tool_results=[call_df38a9d6e6ca4efba44724c2]); [71] assistant(id=msg_20260405080157ff6dff7b2b6d48c5, tool_uses=[call_fcf74cb1af2e4527b652fe79]); [72] user(tool_results=[call_fcf74cb1af2e4527b652fe79]); [73] assistant(id=msg_2026040508015946b0688957f94c90, tool_uses=[call_6cbba2fa299242578ad4a03f]); [74] user(tool_results=[call_6cbba2fa299242578ad4a03f]); [75] assistant(id=msg_20260405080202edce0f9e346c4c7d, tool_uses=[call_da39c4b04cc349fdaa890ad5]); [76] user(tool_results=[call_da39c4b04cc349fdaa890ad5]); [77] assistant(id=msg_2026040508021166fdc3b6177d4807, tool_uses=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [78] user(tool_results=[call_c10de385683d4189a34b0e79,call_26958d67d47a4980ae642b15]); [79] assistant(id=msg_20260405080219ba802ce391ad4cbe, tool_uses=[call_376e496e660843758b035ec7]); [80] user(tool_results=[call_376e496e660843758b035ec7]); [81] assistant(id=msg_20260405080222b40ffa4944eb4d43, tool_uses=[call_8b1afb0395554f0895f03b3a,call_447b2dbb115f4542b462a996]); [82] user(tool_results=[call_8b1afb0395554f0895f03b3a,call_447b2dbb115f4542b462a996]); [83] assistant(id=msg_202604050802307c146b9e8137427e, tool_uses=[call_14b8191f894941a7a1efbd45]); [84] user(tool_results=[call_14b8191f894941a7a1efbd45])\n    at tkK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:5088:9215)\n    at znK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:11856)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7990\n    at async X47 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4552:2407)\n    at async Object.sR6 [as callModel] (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7894:7960)\n    at async A$Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:10249)\n    at async Px (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4188:6349)\n    at async l7O (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17217)\n    at async S95.submitMessage (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:9481)\n    at async C95 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:16685:17091)"
+
+2026-04-05T00:02:32.763Z 2026-04-05T00:02:32.763Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.92.131; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-04-05T00:02:32.763Z 2026-04-05T00:02:32.763Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:32.763Z 2026-04-05T00:02:32.763Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:32.763Z 2026-04-05T00:02:32.763Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-04-05T00:02:32.763Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-04-05T00:02:32.764Z 2026-04-05T00:02:32.764Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-04-05T00:02:32.764Z 2026-04-05T00:02:32.764Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:32.767Z 2026-04-05T00:02:32.766Z [DEBUG] [API REQUEST] /api/anthropic/v1/messages source=sdk
+
+2026-04-05T00:02:33.584Z 2026-04-05T00:02:33.584Z [DEBUG] Stream started - received first chunk
+
+2026-04-05T00:02:34.947Z 2026-04-05T00:02:34.947Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-04-05T00:02:40.233Z 2026-04-05T00:02:40.233Z [DEBUG] LSP server manager shut down successfully
+
+2026-04-05T00:02:40.235Z 2026-04-05T00:02:40.235Z [DEBUG] Metrics export disabled by organization setting
+
+2026-04-05T00:02:40.235Z 2026-04-05T00:02:40.235Z [DEBUG] Failed to check metrics opt-out status: Auth error: No API key available
+2026-04-05T00:02:40.235Z [ERROR] "Error: Error: Auth error: No API key available\n    at Pkz (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2080:302)\n    at Pr (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:491:3710)\n    at Wkz (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2080:613)\n    at Y (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:128:17642)\n    at Gd4 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2080:903)\n    at Td4 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2080:1317)\n    at hc1.doExport (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2080:2040)\n    at hc1.export (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2080:1743)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:491:111097\n    at Bmq.with (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:491:16537)"
+
+2026-04-05T00:02:40.235Z 2026-04-05T00:02:40.235Z [DEBUG] BigQuery metrics exporter flush complete
+2026-04-05T00:02:40.235Z [DEBUG] BigQuery metrics exporter flush complete
+2026-04-05T00:02:40.235Z [DEBUG] BigQuery metrics exporter shutdown complete
+
+2026-04-05T00:02:40.235Z 2026-04-05T00:02:40.235Z [DEBUG] Cleaned up session snapshot: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/shell-snapshots/snapshot-zsh-1775347311857-pa45te.sh
+

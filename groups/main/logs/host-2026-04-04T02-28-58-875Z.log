@@ -1,0 +1,91 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-04-04T02:28:58.875Z
+Group: 飞书私聊
+IsMain: true
+Duration: 254755ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 177 chars
+Session ID: new
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+... (truncated 3079 chars) ...
+essage":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+    at pX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14849)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Got new message (143 chars, 0 images), starting new query
+[agent-runner] Starting query (session: 836bf9f6-b172-46fb-8c88-2528946d33c9, resumeAt: 7860a926-2cca-45c1-8025-7dd0813736b1)...
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 836bf9f6-b172-46fb-8c88-2528946d33c9
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=API Error: 402 {"error":{"type":"invalid_request_error","message":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] runQuery post-result SDK error (non-fatal, 1 result(s) already emitted): Claude Code returned an error result: API Error: 402 {"error":{"type":"invalid_request_error","message":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+[agent-runner] runQuery post-result error stack:
+Error: Claude Code returned an error result: API Error: 402 {"error":{"type":"invalid_request_error","message":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+    at pX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14849)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Got new message (143 chars, 0 images), starting new query
+[agent-runner] Starting query (session: 836bf9f6-b172-46fb-8c88-2528946d33c9, resumeAt: 23f7a6fd-cde5-4944-b61c-6c5cc13acee9)...
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 836bf9f6-b172-46fb-8c88-2528946d33c9
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=API Error: 402 {"error":{"type":"invalid_request_error","message":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] runQuery post-result SDK error (non-fatal, 1 result(s) already emitted): Claude Code returned an error result: API Error: 402 {"error":{"type":"invalid_request_error","message":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+[agent-runner] runQuery post-result error stack:
+Error: Claude Code returned an error result: API Error: 402 {"error":{"type":"invalid_request_error","message":"We're unable to verify your membership benefits at this time. Please ensure your membership is active."},"type":"error"}
+    at pX.readMessages (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/sdk.mjs:58:14849)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Received SIGTERM, exiting gracefully
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+... (truncated 960 chars) ...
+:"ipc-1775269487809-rh5x1m","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 402 {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"We're unable to verify your membership benefits at this time. Please ensure your membership is active.\"},\"type\":\"error\"}","newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9","sdkMessageUuid":"7860a926-2cca-45c1-8025-7dd0813736b1","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1775269536335-r5fo7n","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":928,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1775269539671-w2u5p3","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"},"turnId":"ipc-1775269539671-w2u5p3","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 402 {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"We're unable to verify your membership benefits at this time. Please ensure your membership is active.\"},\"type\":\"error\"}","newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9","sdkMessageUuid":"23f7a6fd-cde5-4944-b61c-6c5cc13acee9","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1775269574786-tj5l9s","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":876,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1775269577572-4ewty5","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"},"turnId":"ipc-1775269577572-4ewty5","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"API Error: 402 {\"error\":{\"type\":\"invalid_request_error\",\"message\":\"We're unable to verify your membership benefits at this time. Please ensure your membership is active.\"},\"type\":\"error\"}","newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9","sdkMessageUuid":"7da6f541-2571-42e1-8ab0-17ade95a8de0","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1775269693727-xlq6ze","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":847,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1775269696462-i9j336","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"},"turnId":"ipc-1775269696462-i9j336","sessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"836bf9f6-b172-46fb-8c88-2528946d33c9"}
+---HAPPYCLAW_OUTPUT_END---

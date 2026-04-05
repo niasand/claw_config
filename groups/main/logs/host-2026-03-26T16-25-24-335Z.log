@@ -1,0 +1,85 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-03-26T16:25:24.336Z
+Group: QQ用户
+IsMain: true
+Duration: 1879916ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 264 chars
+Session ID: new
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: new, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-aede3912-43a5-491d-a8a0-002c7af0722a.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a
+[agent-runner] [stream] parent=null block=thinking
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[thinking] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #3] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #4] type=result
+[agent-runner] Result #1: subtype=success text= 晚安尾巴！早点休息，明天周末好好放松一下 😊
+[agent-runner] Usage: input=39184 output=29 cost=$0.117987 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] Query done. Messages: 4, results: 1, lastAssistantUuid: 1dbf37b3-91b1-4450-ba1d-919e8ebfe046, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Got new message (164 chars, 0 images), starting new query
+[agent-runner] Starting query (session: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a, resumeAt: 1dbf37b3-91b1-4450-ba1d-919e8ebfe046)...
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 8caef26c-6d56-4ccb-9ee7-d1050df5f51a
+[agent-runner] [stream] parent=null block=thinking
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[thinking] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #3] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #4] type=result
+[agent-runner] Result #1: subtype=success text= 嗯嗯，快去洗个热水澡放松一下！久坐确实容易累，周末有空的话活动活动筋骨~ 🛁
+[agent-runner] Usage: input=39283 output=57 cost=$0.11870399999999999 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] Query done. Messages: 4, results: 1, lastAssistantUuid: 56628316-15b0-4f50-8ac4-cf25cdc9d493, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Close sentinel received, exiting
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+... (truncated 1261 chars) ...
+56-4ccb-9ee7-d1050df5f51a"},"turnId":"6fe64b0a-0203-44c6-a533-86b63a3212f2","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":" 晚安尾巴！早点休息，明天周末好好放松一下 😊","newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a","sdkMessageUuid":"1dbf37b3-91b1-4450-ba1d-919e8ebfe046","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"6fe64b0a-0203-44c6-a533-86b63a3212f2","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":39184,"outputTokens":29,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0.117987,"durationMs":8899,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":39184,"outputTokens":29,"costUSD":0.117987}}},"turnId":"ipc-1774540456169-smkkjl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540456169-smkkjl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":" 用户说要去洗澡，提到这周都没健身了。","turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":"这是一个简单的闲聊，我只需要友好地回应即可。\n\n","turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":"这是一个简短的对话，不需要使用工具，直接回复即可。","turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":" 嗯嗯，快去洗个热水澡放松一下！久坐确实容易累，","turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"周末有空的话活动活动筋骨~ 🛁","turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":" 嗯嗯，快去洗个热水澡放松一下！久坐确实容易累，周末有空的话活动活动筋骨~ 🛁","newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a","sdkMessageUuid":"56628316-15b0-4f50-8ac4-cf25cdc9d493","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"ipc-1774540514274-4hb6kl","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":39283,"outputTokens":57,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0.11870399999999999,"durationMs":7296,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":39283,"outputTokens":57,"costUSD":0.11870399999999999}}},"turnId":"ipc-1774540523126-2hasyp","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"},"turnId":"ipc-1774540523126-2hasyp","sessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"8caef26c-6d56-4ccb-9ee7-d1050df5f51a"}
+---HAPPYCLAW_OUTPUT_END---

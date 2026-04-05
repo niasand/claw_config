@@ -1,0 +1,90 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-04-05T00:22:28.981Z
+Group: QQ用户
+IsMain: true
+Duration: 1324103ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 3973 chars
+Session ID: 10ad7c01-9bf1-41fe-817d-22506af87c68
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+... (truncated 6620 chars) ...
+e,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=tool_use name=Bash id=call_da39c4b
+[agent-runner] [msg #34] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #35] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #36] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=tool_use name=Bash id=call_c10de38
+[agent-runner] [msg #37] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=tool_use name=Bash id=call_26958d6
+[agent-runner] [msg #38] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #39] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [msg #40] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [stream] parent=null block=tool_use name=TodoWrite id=call_376e496
+[agent-runner] [msg #41] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #42] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #43] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=tool_use name=mcp__happyclaw__send_message id=call_8b1afb0
+[agent-runner] [msg #44] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=tool_use name=Bash id=call_447b2db
+[agent-runner] [msg #45] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #46] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [msg #47] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [stream] parent=null block=tool_use name=TodoWrite id=call_14b8191
+[agent-runner] [msg #48] type=assistant parent_tool_use_id=NULL content_types=[tool_use] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #49] type=user parent_tool_use_id=NULL content_types=[tool_result] keys=[type,message,parent_tool_use_id,session_id,uuid,timestamp,tool_use_result]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #50] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #51] type=result
+[agent-runner] Result #1: subtype=success text=每日早报搞定。飞书文档已创建（20条新闻），所有权已转移，QQ 和飞书双渠道都已推送。
+
+注：今天是清明节假期，新闻密度偏低，社会新闻以祭扫出行和微博热搜为主。
+[agent-runner] Usage: input=22909 output=5328 cost=$0.6604592999999999 turns=22
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] Query done. Messages: 51, results: 1, lastAssistantUuid: 245e675d-5c75-41f5-9da5-dd786e6e67a9, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Close sentinel received, exiting
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+... (truncated 38481 chars) ...
+activeForm":"推送摘要中","content":"双渠道推送摘要","status":"completed"}],"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"tool_use_end","toolUseId":"call_14b8191f894941a7a1efbd45","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"每日早报搞定。飞书文档已创建（20条新闻），","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"所有权已转移，QQ 和飞书双渠道都已","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"推送。\n\n注：今天是清明节假期，新闻密度偏低","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"，社会新闻以祭扫出行","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"和微博热搜为主。","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"每日早报搞定。飞书文档已创建（20条新闻），所有权已转移，QQ 和飞书双渠道都已推送。\n\n注：今天是清明节假期，新闻密度偏低，社会新闻以祭扫出行和微博热搜为主。","newSessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68","sdkMessageUuid":"245e675d-5c75-41f5-9da5-dd786e6e67a9","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"22b95be7-02ee-4c6e-b827-e173f59fed63","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":22909,"outputTokens":5328,"cacheReadInputTokens":1285324,"cacheCreationInputTokens":0,"costUSD":0.6604592999999999,"durationMs":128184,"numTurns":22,"modelUsage":{"glm-5-turbo":{"inputTokens":36865,"outputTokens":10618,"costUSD":0.6604592999999999}}},"turnId":"ipc-1775347354950-yl8qns","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"ipc-1775347354950-yl8qns","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"tool_use_end","toolUseId":"call_6cbba2fa299242578ad4a03f","parentToolUseId":"call_fcf74cb1af2e4527b652fe79","turnId":"ipc-1775347354950-yl8qns","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"},"turnId":"ipc-1775347354950-yl8qns","sessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"10ad7c01-9bf1-41fe-817d-22506af87c68"}
+---HAPPYCLAW_OUTPUT_END---

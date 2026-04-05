@@ -1,0 +1,914 @@
+2026-03-30T01:00:29.849Z [ProcessTransport] Writing to stdin: {"type":"user","message":{"role":"user","content":"[定时任务 - 以下内容由系统自动发送，并非来自用户或群组的直接消息。]\n\n运行 follow
+2026-03-30T01:00:29.849Z [ProcessTransport] Writing to stdin: {"request_id":"h9efnsqjpoh","type":"control_request","request":{"subtype":"initialize","hooks":{"Pre
+2026-03-30T01:00:29.828Z Spawning Claude Code: node /Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js --output-format stream-json --verbose --input-format stream-json --thinking adaptive --model kimi2.5 --debug-to-stderr --allowedTools Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Task,TaskOutput,TaskStop,TeamCreate,TeamDelete,SendMessage,TodoWrite,ToolSearch,Skill,NotebookEdit,mcp__happyclaw__* --setting-sources project,user --permission-mode bypassPermissions --allow-dangerously-skip-permissions --include-partial-messages --add-dir /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046
+2026-03-30T01:00:30.967Z 2026-03-30T01:00:30.965Z [DEBUG] MDM settings load completed in 1ms
+
+2026-03-30T01:00:31.037Z 2026-03-30T01:00:31.036Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+
+2026-03-30T01:00:31.037Z 2026-03-30T01:00:31.037Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:31.038Z 2026-03-30T01:00:31.038Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Library/Application Support/ClaudeCode/managed-settings.json
+
+2026-03-30T01:00:31.039Z 2026-03-30T01:00:31.039Z [DEBUG] CA certs: Config fallback - globalEnv keys: , settingsEnv keys: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS,CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD,CLAUDE_CODE_DISABLE_AUTO_MEMORY
+
+2026-03-30T01:00:31.044Z 2026-03-30T01:00:31.044Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json'
+
+2026-03-30T01:00:31.045Z 2026-03-30T01:00:31.045Z [DEBUG] Setting permissions for new file: 600
+2026-03-30T01:00:31.045Z [DEBUG] Writing to temp file: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431045
+
+2026-03-30T01:00:31.046Z 2026-03-30T01:00:31.046Z [DEBUG] Temp file written successfully, size: 50 bytes
+
+2026-03-30T01:00:31.046Z 2026-03-30T01:00:31.046Z [DEBUG] Renaming /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431045 to /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json
+
+2026-03-30T01:00:31.046Z 2026-03-30T01:00:31.046Z [DEBUG] File /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json written atomically
+
+2026-03-30T01:00:31.047Z 2026-03-30T01:00:31.046Z [DEBUG] [init] configureGlobalMTLS starting
+
+2026-03-30T01:00:31.047Z 2026-03-30T01:00:31.047Z [DEBUG] [init] configureGlobalMTLS complete
+2026-03-30T01:00:31.047Z [DEBUG] [init] configureGlobalAgents starting
+
+2026-03-30T01:00:31.047Z 2026-03-30T01:00:31.047Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+
+2026-03-30T01:00:31.047Z 2026-03-30T01:00:31.047Z [DEBUG] [init] configureGlobalAgents complete
+
+2026-03-30T01:00:31.176Z 2026-03-30T01:00:31.175Z [DEBUG] Error log sink initialized
+
+2026-03-30T01:00:31.211Z 2026-03-30T01:00:31.211Z [DEBUG] Preserving file permissions: 100600
+2026-03-30T01:00:31.211Z [DEBUG] Writing to temp file: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431210
+
+2026-03-30T01:00:31.211Z 2026-03-30T01:00:31.211Z [DEBUG] Temp file written successfully, size: 86 bytes
+
+2026-03-30T01:00:31.211Z 2026-03-30T01:00:31.211Z [DEBUG] Applied original permissions to temp file
+2026-03-30T01:00:31.211Z [DEBUG] Renaming /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431210 to /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json
+
+2026-03-30T01:00:31.211Z 2026-03-30T01:00:31.211Z [DEBUG] File /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json written atomically
+
+2026-03-30T01:00:31.223Z 2026-03-30T01:00:31.222Z [DEBUG] Preserving file permissions: 100600
+2026-03-30T01:00:31.222Z [DEBUG] Writing to temp file: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431222
+
+2026-03-30T01:00:31.223Z 2026-03-30T01:00:31.223Z [DEBUG] Temp file written successfully, size: 125 bytes
+
+2026-03-30T01:00:31.223Z 2026-03-30T01:00:31.223Z [DEBUG] Applied original permissions to temp file
+2026-03-30T01:00:31.223Z [DEBUG] Renaming /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431222 to /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json
+
+2026-03-30T01:00:31.223Z 2026-03-30T01:00:31.223Z [DEBUG] File /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json written atomically
+
+2026-03-30T01:00:31.235Z 2026-03-30T01:00:31.234Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:31.269Z 2026-03-30T01:00:31.269Z [DEBUG] Applying permission update: Adding 1 directory with destination 'cliArg': ["/Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046"]
+
+2026-03-30T01:00:31.271Z 2026-03-30T01:00:31.271Z [DEBUG] Preserving file permissions: 100600
+2026-03-30T01:00:31.271Z [DEBUG] Writing to temp file: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431271
+
+2026-03-30T01:00:31.272Z 2026-03-30T01:00:31.272Z [DEBUG] Temp file written successfully, size: 205 bytes
+
+2026-03-30T01:00:31.272Z 2026-03-30T01:00:31.272Z [DEBUG] Applied original permissions to temp file
+2026-03-30T01:00:31.272Z [DEBUG] Renaming /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json.tmp.6132.1774832431271 to /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json
+
+2026-03-30T01:00:31.272Z 2026-03-30T01:00:31.272Z [DEBUG] File /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/.claude.json written atomically
+
+2026-03-30T01:00:31.274Z 2026-03-30T01:00:31.274Z [DEBUG] [claudeai-mcp] No access token
+
+2026-03-30T01:00:31.274Z 2026-03-30T01:00:31.274Z [DEBUG] [STARTUP] Loading MCP configs...
+
+2026-03-30T01:00:31.275Z 2026-03-30T01:00:31.275Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:31.276Z 2026-03-30T01:00:31.275Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.local.json
+
+2026-03-30T01:00:31.277Z 2026-03-30T01:00:31.277Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=false, result=false
+
+2026-03-30T01:00:31.278Z 2026-03-30T01:00:31.278Z [DEBUG] [STARTUP] Running setup()...
+
+2026-03-30T01:00:31.281Z 2026-03-30T01:00:31.281Z [DEBUG] Loading skills from: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/skills, project=[]
+
+2026-03-30T01:00:31.292Z 2026-03-30T01:00:31.292Z [DEBUG] Error log sink initialized
+
+2026-03-30T01:00:31.310Z 2026-03-30T01:00:31.310Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+
+2026-03-30T01:00:31.311Z 2026-03-30T01:00:31.311Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+
+2026-03-30T01:00:31.311Z 2026-03-30T01:00:31.311Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+
+2026-03-30T01:00:31.311Z 2026-03-30T01:00:31.311Z [DEBUG] Registered 0 hooks from 0 plugins
+
+2026-03-30T01:00:31.312Z 2026-03-30T01:00:31.311Z [DEBUG] Total plugin skills loaded: 0
+2026-03-30T01:00:31.311Z [DEBUG] Total plugin commands loaded: 0
+
+2026-03-30T01:00:31.313Z 2026-03-30T01:00:31.313Z [DEBUG] [STARTUP] setup() completed in 35ms
+
+2026-03-30T01:00:31.314Z 2026-03-30T01:00:31.313Z [DEBUG] Cleared CA certificates cache
+
+2026-03-30T01:00:31.314Z 2026-03-30T01:00:31.314Z [DEBUG] Cleared mTLS configuration cache
+
+2026-03-30T01:00:31.314Z 2026-03-30T01:00:31.314Z [DEBUG] Cleared proxy agent cache
+2026-03-30T01:00:31.314Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+
+2026-03-30T01:00:31.316Z 2026-03-30T01:00:31.315Z [DEBUG] [STARTUP] Loading commands and agents...
+
+2026-03-30T01:00:31.368Z 2026-03-30T01:00:31.368Z [DEBUG] Git remote URL: null
+
+2026-03-30T01:00:31.369Z 2026-03-30T01:00:31.368Z [DEBUG] No git remote URL found
+
+2026-03-30T01:00:31.471Z 2026-03-30T01:00:31.471Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/groups/task-177476358046/.claude/settings.local.json
+
+2026-03-30T01:00:31.901Z 2026-03-30T01:00:31.901Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/vendor/ripgrep/x64-darwin/rg)
+
+2026-03-30T01:00:31.921Z 2026-03-30T01:00:31.921Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Library/Application Support/ClaudeCode/.claude/agents: IO error for operation on /Library/Application Support/ClaudeCode/.claude/agents: No such file or directory (os error 2)
+), 0 results
+
+2026-03-30T01:00:31.922Z 2026-03-30T01:00:31.921Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/agents: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/agents: No such file or directory (os error 2)
+), 0 results
+
+2026-03-30T01:00:31.922Z 2026-03-30T01:00:31.922Z [DEBUG] Total plugin agents loaded: 0
+
+2026-03-30T01:00:31.924Z 2026-03-30T01:00:31.923Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Library/Application Support/ClaudeCode/.claude/commands: IO error for operation on /Library/Application Support/ClaudeCode/.claude/commands: No such file or directory (os error 2)
+), 0 results
+
+2026-03-30T01:00:31.924Z 2026-03-30T01:00:31.924Z [DEBUG] rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/commands: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/commands: No such file or directory (os error 2)
+), 0 results
+
+2026-03-30T01:00:31.925Z 2026-03-30T01:00:31.924Z [DEBUG] Loaded 3 unique skills (3 unconditional, 0 conditional, managed: 0, user: 3, project: 0, additional: 0, legacy commands: 0)
+
+2026-03-30T01:00:31.925Z 2026-03-30T01:00:31.925Z [DEBUG] getSkills returning: 3 skill dir commands, 0 plugin skills, 8 bundled skills, 0 builtin plugin skills
+
+2026-03-30T01:00:31.928Z 2026-03-30T01:00:31.928Z [DEBUG] [STARTUP] Commands and agents loaded in 612ms
+
+2026-03-30T01:00:31.928Z 2026-03-30T01:00:31.928Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+
+2026-03-30T01:00:31.928Z 2026-03-30T01:00:31.928Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+
+2026-03-30T01:00:31.928Z 2026-03-30T01:00:31.928Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+
+2026-03-30T01:00:31.929Z 2026-03-30T01:00:31.929Z [DEBUG] Starting background startup prefetches
+
+2026-03-30T01:00:31.929Z 2026-03-30T01:00:31.929Z [DEBUG] [Bootstrap] Skipped: no usable OAuth or API key
+
+2026-03-30T01:00:31.930Z 2026-03-30T01:00:31.929Z [DEBUG] [STARTUP] MCP configs resolved in 38ms (awaited at +655ms)
+
+2026-03-30T01:00:31.932Z 2026-03-30T01:00:31.931Z [DEBUG] Total LSP servers loaded: 0
+
+2026-03-30T01:00:31.932Z 2026-03-30T01:00:31.932Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-03-30T01:00:31.932Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-03-30T01:00:31.932Z [DEBUG] LSP manager initialized with 0 servers
+
+2026-03-30T01:00:31.933Z 2026-03-30T01:00:31.933Z [DEBUG] Cleared CA certificates cache
+
+2026-03-30T01:00:31.933Z 2026-03-30T01:00:31.933Z [DEBUG] Cleared mTLS configuration cache
+2026-03-30T01:00:31.933Z [DEBUG] Cleared proxy agent cache
+2026-03-30T01:00:31.933Z [DEBUG] CA certs: useSystemCA=false, extraCertsPath=undefined
+
+2026-03-30T01:00:31.934Z 2026-03-30T01:00:31.934Z [DEBUG] LSP server manager initialized successfully
+
+2026-03-30T01:00:31.934Z 2026-03-30T01:00:31.934Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+
+2026-03-30T01:00:31.947Z 2026-03-30T01:00:31.946Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-03-30T01:00:31.946Z [DEBUG] Found 0 hook matchers in settings
+2026-03-30T01:00:31.946Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+
+2026-03-30T01:00:31.948Z 2026-03-30T01:00:31.948Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:31.949Z 2026-03-30T01:00:31.949Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+
+2026-03-30T01:00:31.949Z 2026-03-30T01:00:31.949Z [DEBUG] [3P telemetry] isTelemetryEnabled=false (CLAUDE_CODE_ENABLE_TELEMETRY=undefined)
+
+2026-03-30T01:00:31.956Z 2026-03-30T01:00:31.956Z [DEBUG] [auto-mode] verifyAutoModeGateAccess: enabledState=disabled disabledBySettings=false model=kimi2.5 modelSupported=false disableFastModeBreakerFires=false carouselAvailable=false canEnterAuto=false
+
+2026-03-30T01:00:31.957Z 2026-03-30T01:00:31.956Z [WARN] auto mode disabled: tengu_auto_mode_config.enabled === "disabled" (circuit breaker)
+
+2026-03-30T01:00:31.957Z 2026-03-30T01:00:31.957Z [DEBUG] [auto-mode] kickOutOfAutoIfNeeded applying: ctx.mode=bypassPermissions ctx.prePlanMode=undefined reason=circuit-breaker
+
+2026-03-30T01:00:31.996Z 2026-03-30T01:00:31.996Z [DEBUG] [ScheduledTasks] scheduler start() — enabled=false, hasTasks=false
+
+2026-03-30T01:00:31.998Z 2026-03-30T01:00:31.998Z [DEBUG] installPluginsForHeadless: starting
+
+2026-03-30T01:00:31.998Z 2026-03-30T01:00:31.998Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:31.998Z 2026-03-30T01:00:31.998Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.local.json
+
+2026-03-30T01:00:31.999Z 2026-03-30T01:00:31.999Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:31.999Z 2026-03-30T01:00:31.999Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.local.json
+2026-03-30T01:00:31.999Z [DEBUG] installPluginsForHeadless: no marketplaces declared
+
+2026-03-30T01:00:32.009Z 2026-03-30T01:00:32.009Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:32.010Z 2026-03-30T01:00:32.009Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.local.json
+2026-03-30T01:00:32.010Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.json
+
+2026-03-30T01:00:32.010Z 2026-03-30T01:00:32.010Z [DEBUG] Broken symlink or missing file encountered for settings.json at path: /Users/zhiwei/Downloads/happyclaw/data/memory/task-177476358046/.claude/settings.local.json
+
+2026-03-30T01:00:32.010Z 2026-03-30T01:00:32.010Z [DEBUG] Fetching plugin security messages from https://raw.githubusercontent.com/anthropics/claude-plugins-official/refs/heads/security/security.json
+
+2026-03-30T01:00:32.060Z 2026-03-30T01:00:32.060Z [DEBUG] "rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/plugins/cache: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/plugins/cache: No such file or directory (os error 2)\n), 0 results"
+
+2026-03-30T01:00:32.061Z 2026-03-30T01:00:32.061Z [DEBUG] "rg error (signal=null, code=2, stderr: rg: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/output-styles: IO error for operation on /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/output-styles: No such file or directory (os error 2)\n), 0 results"
+
+2026-03-30T01:00:32.061Z 2026-03-30T01:00:32.061Z [DEBUG] "rg error (signal=null, code=2, stderr: rg: /Library/Application Support/ClaudeCode/.claude/output-styles: IO error for operation on /Library/Application Support/ClaudeCode/.claude/output-styles: No such file or directory (os error 2)\n), 0 results"
+
+2026-03-30T01:00:32.062Z 2026-03-30T01:00:32.062Z [DEBUG] Total plugin output styles loaded: 0
+
+2026-03-30T01:00:32.064Z 2026-03-30T01:00:32.064Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:32.079Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"58f4106e-b879-4651-9732-a8c
+2026-03-30T01:00:32.079Z 2026-03-30T01:00:32.074Z [DEBUG] Watching for changes in setting files /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/settings.json...
+2026-03-30T01:00:32.075Z [DEBUG] Watching for changes in skill/command directories: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/skills...
+
+2026-03-30T01:00:32.088Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"071ac43f-df26-42f2-99fd-86f
+2026-03-30T01:00:32.095Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"4ba724ac-aa5e-49e3-827e-083
+2026-03-30T01:00:32.144Z 2026-03-30T01:00:32.143Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+
+2026-03-30T01:00:32.144Z 2026-03-30T01:00:32.144Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-03-30T01:00:32.145Z 2026-03-30T01:00:32.144Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:00:32.145Z 2026-03-30T01:00:32.145Z [DEBUG] Sending 7 skills via attachment (initial, 7 total sent)
+
+2026-03-30T01:00:32.146Z 2026-03-30T01:00:32.146Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:00:32.147Z 2026-03-30T01:00:32.147Z [WARN] [3P telemetry] Event dropped (no event logger initialized): user_prompt
+
+2026-03-30T01:00:32.159Z 2026-03-30T01:00:32.158Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:32.165Z 2026-03-30T01:00:32.165Z [DEBUG] autocompact: tokens=430 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:00:32.169Z 2026-03-30T01:00:32.169Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:00:32.244Z 2026-03-30T01:00:32.244Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:00:32.245Z 2026-03-30T01:00:32.245Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:32.247Z 2026-03-30T01:00:32.246Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:00:32.246Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:00:32.248Z 2026-03-30T01:00:32.247Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:32.250Z 2026-03-30T01:00:32.250Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:00:32.252Z 2026-03-30T01:00:32.252Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:32.259Z 2026-03-30T01:00:32.259Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:00:32.568Z 2026-03-30T01:00:32.567Z [DEBUG] Security messages saved successfully
+
+2026-03-30T01:00:32.968Z 2026-03-30T01:00:32.968Z [DEBUG] [mcp-registry] Loaded 45 official MCP URLs
+
+2026-03-30T01:00:39.113Z 2026-03-30T01:00:39.113Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:00:42.925Z 2026-03-30T01:00:42.925Z [ERROR] "SyntaxError: SyntaxError: Unexpected non-whitespace character after JSON at position 17 (line 1 column 18)\n    at JSON.parse (<anonymous>)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1065\n    at z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:61:21665)\n    at Object.assign.cache (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1184)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:733\n    at Array.map (<anonymous>)\n    at mm8 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:560)\n    at WmK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7697:7084)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7692:7914"
+
+2026-03-30T01:00:43.370Z 2026-03-30T01:00:43.370Z [DEBUG] "Glob tool input error: Glob failed due to the following issue:\nThe required parameter `pattern` is missing"
+
+2026-03-30T01:00:43.372Z 2026-03-30T01:00:43.372Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:00:43.372Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-03-30T01:00:43.372Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:00:43.372Z 2026-03-30T01:00:43.372Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+
+2026-03-30T01:00:43.372Z 2026-03-30T01:00:43.372Z [DEBUG] autocompact: tokens=36337 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:00:43.373Z 2026-03-30T01:00:43.373Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:00:43.375Z 2026-03-30T01:00:43.375Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:00:43.376Z 2026-03-30T01:00:43.376Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:43.376Z 2026-03-30T01:00:43.376Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:00:43.376Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:00:43.376Z 2026-03-30T01:00:43.376Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:43.377Z 2026-03-30T01:00:43.377Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:00:43.378Z 2026-03-30T01:00:43.378Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:43.380Z 2026-03-30T01:00:43.380Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:00:46.625Z 2026-03-30T01:00:46.625Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:00:47.513Z 2026-03-30T01:00:47.513Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2026-03-30T01:00:47.513Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:00:47.514Z 2026-03-30T01:00:47.514Z [DEBUG] Matched 1 unique hooks for query "Glob" (1 before deduplication)
+
+2026-03-30T01:00:47.518Z 2026-03-30T01:00:47.518Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-03-30T01:00:47.518Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:00:47.518Z 2026-03-30T01:00:47.518Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:00:47.518Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-03-30T01:00:47.519Z 2026-03-30T01:00:47.519Z [DEBUG] autocompact: tokens=73481 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:00:47.519Z 2026-03-30T01:00:47.519Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:00:47.521Z 2026-03-30T01:00:47.520Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:00:47.521Z 2026-03-30T01:00:47.521Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:47.521Z 2026-03-30T01:00:47.521Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:00:47.521Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:00:47.521Z 2026-03-30T01:00:47.521Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:47.522Z 2026-03-30T01:00:47.522Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:00:47.523Z 2026-03-30T01:00:47.522Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:47.524Z 2026-03-30T01:00:47.524Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:00:50.846Z 2026-03-30T01:00:50.846Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:00:51.729Z 2026-03-30T01:00:51.729Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2026-03-30T01:00:51.729Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:00:51.729Z 2026-03-30T01:00:51.729Z [DEBUG] Matched 1 unique hooks for query "Glob" (1 before deduplication)
+
+2026-03-30T01:00:51.730Z 2026-03-30T01:00:51.730Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:00:51.730Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:00:51.730Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:00:51.730Z 2026-03-30T01:00:51.730Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:00:51.731Z 2026-03-30T01:00:51.731Z [DEBUG] autocompact: tokens=36413 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:00:51.731Z 2026-03-30T01:00:51.731Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:00:51.735Z 2026-03-30T01:00:51.735Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:00:51.735Z 2026-03-30T01:00:51.735Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:51.736Z 2026-03-30T01:00:51.736Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:00:51.736Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:00:51.737Z 2026-03-30T01:00:51.736Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:51.738Z 2026-03-30T01:00:51.738Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:00:51.738Z 2026-03-30T01:00:51.738Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:51.740Z 2026-03-30T01:00:51.740Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:00:55.121Z 2026-03-30T01:00:55.121Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:00:56.919Z 2026-03-30T01:00:56.918Z [DEBUG] tree-sitter: native module loaded
+
+2026-03-30T01:00:56.922Z 2026-03-30T01:00:56.922Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:00:56.945Z 2026-03-30T01:00:56.945Z [DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+
+2026-03-30T01:00:56.945Z 2026-03-30T01:00:56.945Z [DEBUG] Looking for shell config file: /Users/zhiwei/.zshrc
+
+2026-03-30T01:00:56.946Z 2026-03-30T01:00:56.946Z [DEBUG] Snapshots directory: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/shell-snapshots
+
+2026-03-30T01:00:56.948Z 2026-03-30T01:00:56.948Z [DEBUG] Creating snapshot at: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/shell-snapshots/snapshot-zsh-1774832456946-wwi805.sh
+2026-03-30T01:00:56.948Z [DEBUG] Execution timeout: 10000ms
+
+2026-03-30T01:00:58.662Z 2026-03-30T01:00:58.662Z [DEBUG] Shell snapshot created successfully (185536 bytes)
+
+2026-03-30T01:00:58.664Z 2026-03-30T01:00:58.664Z [DEBUG] No session environment scripts found
+
+2026-03-30T01:00:58.664Z 2026-03-30T01:00:58.664Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-03-30T01:00:58.698Z 2026-03-30T01:00:58.698Z [DEBUG] Bash tool error (1770ms): Shell command failed
+
+2026-03-30T01:00:58.699Z 2026-03-30T01:00:58.699Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:00:58.699Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:00:58.699Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:00:58.699Z 2026-03-30T01:00:58.699Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:00:58.701Z 2026-03-30T01:00:58.700Z [DEBUG] autocompact: tokens=36613 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:00:58.701Z 2026-03-30T01:00:58.701Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:00:58.705Z 2026-03-30T01:00:58.704Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:00:58.705Z 2026-03-30T01:00:58.705Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:58.705Z 2026-03-30T01:00:58.705Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:00:58.705Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:00:58.705Z 2026-03-30T01:00:58.705Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:58.707Z 2026-03-30T01:00:58.707Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:00:58.707Z 2026-03-30T01:00:58.707Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:00:58.709Z 2026-03-30T01:00:58.709Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:01:11.938Z 2026-03-30T01:01:11.938Z [ERROR] "Error: Error: 1P event logging: 21 events failed to export (code=ECONNRESET, Client network socket disconnected before secure TLS connection was established)\n    at Xf1.queueFailedEvents (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:473:2546)\n    at async Xf1.doExport (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:473:1465)"
+
+2026-03-30T01:01:11.939Z 2026-03-30T01:01:11.939Z [ERROR] "Error: Error: {\"stack\":\"Error: Failed to export 21 events (code=ECONNRESET, Client network socket disconnected before secure TLS connection was established)\\n    at Xf1.doExport (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:473:1640)\",\"message\":\"Failed to export 21 events (code=ECONNRESET, Client network socket disconnected before secure TLS connection was established)\",\"name\":\"Error\"}\n    at bQ1.error (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:4337)\n    at ZZ1.error (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:446:10502)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:446:36848\n    at Fg9 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:446:37394)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:447:24943"
+
+2026-03-30T01:01:11.939Z 2026-03-30T01:01:11.939Z [ERROR] [3P telemetry] OTEL diag error: {"stack":"Error: Failed to export 21 events (code=ECONNRESET, Client network socket disconnected before secure TLS connection was established)\n    at Xf1.doExport (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:473:1640)","message":"Failed to export 21 events (code=ECONNRESET, Client network socket disconnected before secure TLS connection was established)","name":"Error"}
+
+2026-03-30T01:01:17.275Z 2026-03-30T01:01:17.275Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:01:18.330Z 2026-03-30T01:01:18.330Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:01:18.333Z 2026-03-30T01:01:18.333Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-03-30T01:01:18.370Z 2026-03-30T01:01:18.370Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+
+2026-03-30T01:01:18.370Z 2026-03-30T01:01:18.370Z [DEBUG] Found 5 hook matchers in settings
+2026-03-30T01:01:18.370Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+
+2026-03-30T01:01:18.371Z 2026-03-30T01:01:18.371Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+
+2026-03-30T01:01:18.371Z 2026-03-30T01:01:18.371Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:01:18.371Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-03-30T01:01:18.371Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:01:18.371Z 2026-03-30T01:01:18.371Z [DEBUG] autocompact: tokens=36657 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:01:18.371Z 2026-03-30T01:01:18.371Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:01:18.372Z 2026-03-30T01:01:18.372Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:01:18.373Z 2026-03-30T01:01:18.373Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:18.373Z 2026-03-30T01:01:18.373Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:01:18.373Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:01:18.373Z 2026-03-30T01:01:18.373Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:18.408Z 2026-03-30T01:01:18.407Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:01:18.408Z 2026-03-30T01:01:18.408Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:18.410Z 2026-03-30T01:01:18.410Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:01:40.715Z 2026-03-30T01:01:40.714Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:01:42.048Z 2026-03-30T01:01:42.047Z [DEBUG] Matched 1 unique hooks for query "Grep" (1 before deduplication)
+
+2026-03-30T01:01:42.048Z 2026-03-30T01:01:42.047Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2026-03-30T01:01:42.047Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:01:42.049Z 2026-03-30T01:01:42.049Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:01:42.049Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-03-30T01:01:42.049Z 2026-03-30T01:01:42.049Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-03-30T01:01:42.049Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:01:42.050Z 2026-03-30T01:01:42.050Z [DEBUG] autocompact: tokens=36729 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:01:42.050Z 2026-03-30T01:01:42.050Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:01:42.052Z 2026-03-30T01:01:42.052Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:01:42.052Z 2026-03-30T01:01:42.052Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:42.052Z 2026-03-30T01:01:42.052Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:01:42.052Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:01:42.052Z 2026-03-30T01:01:42.052Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:42.053Z 2026-03-30T01:01:42.053Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:01:42.053Z 2026-03-30T01:01:42.053Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:42.055Z 2026-03-30T01:01:42.055Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:01:48.795Z 2026-03-30T01:01:48.795Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:01:50.247Z 2026-03-30T01:01:50.247Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:01:50.247Z 2026-03-30T01:01:50.247Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.aed; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:01:50.247Z 2026-03-30T01:01:50.247Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:50.248Z 2026-03-30T01:01:50.248Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:50.248Z 2026-03-30T01:01:50.248Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:01:50.248Z 2026-03-30T01:01:50.247Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-03-30T01:01:50.289Z 2026-03-30T01:01:50.289Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:01:50.289Z 2026-03-30T01:01:50.289Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:01:50.291Z 2026-03-30T01:01:50.291Z [DEBUG] [API REQUEST] /coding/v1/messages source=web_search_tool
+
+2026-03-30T01:01:54.324Z 2026-03-30T01:01:54.324Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:02:28.528Z 2026-03-30T01:02:28.528Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+
+2026-03-30T01:02:28.528Z 2026-03-30T01:02:28.527Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2026-03-30T01:02:28.528Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:02:28.528Z 2026-03-30T01:02:28.528Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:02:28.528Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:02:28.528Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:02:28.528Z 2026-03-30T01:02:28.528Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:02:28.529Z 2026-03-30T01:02:28.529Z [DEBUG] autocompact: tokens=37886 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:02:28.529Z 2026-03-30T01:02:28.529Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:02:28.530Z 2026-03-30T01:02:28.530Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:02:28.530Z 2026-03-30T01:02:28.530Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:28.531Z 2026-03-30T01:02:28.531Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:02:28.531Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:02:28.531Z 2026-03-30T01:02:28.531Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:28.569Z 2026-03-30T01:02:28.569Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:02:28.570Z 2026-03-30T01:02:28.569Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:28.571Z 2026-03-30T01:02:28.571Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:02:43.871Z 2026-03-30T01:02:43.870Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:02:46.287Z 2026-03-30T01:02:46.287Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2026-03-30T01:02:46.287Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:02:46.287Z 2026-03-30T01:02:46.287Z [DEBUG] Matched 1 unique hooks for query "Grep" (1 before deduplication)
+
+2026-03-30T01:02:46.288Z 2026-03-30T01:02:46.288Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:02:46.288Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:02:46.288Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:02:46.288Z 2026-03-30T01:02:46.288Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:02:46.289Z 2026-03-30T01:02:46.288Z [DEBUG] autocompact: tokens=38106 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:02:46.289Z 2026-03-30T01:02:46.289Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:02:46.291Z 2026-03-30T01:02:46.291Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:02:46.291Z 2026-03-30T01:02:46.291Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:46.291Z 2026-03-30T01:02:46.291Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:02:46.291Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:02:46.291Z 2026-03-30T01:02:46.291Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:46.292Z 2026-03-30T01:02:46.292Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:02:46.292Z 2026-03-30T01:02:46.292Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:46.294Z 2026-03-30T01:02:46.294Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:02:53.896Z 2026-03-30T01:02:53.896Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:02:57.454Z 2026-03-30T01:02:57.454Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:02:57.457Z 2026-03-30T01:02:57.457Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:02:57.461Z 2026-03-30T01:02:57.461Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:02:57.465Z 2026-03-30T01:02:57.465Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-03-30T01:02:57.508Z 2026-03-30T01:02:57.508Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-03-30T01:02:57.508Z [DEBUG] Found 5 hook matchers in settings
+2026-03-30T01:02:57.508Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+
+2026-03-30T01:02:57.509Z 2026-03-30T01:02:57.509Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:02:57.509Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:02:57.509Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:02:57.509Z 2026-03-30T01:02:57.509Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:02:57.510Z 2026-03-30T01:02:57.510Z [DEBUG] autocompact: tokens=77153 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:02:57.510Z 2026-03-30T01:02:57.510Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:02:57.511Z 2026-03-30T01:02:57.511Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:02:57.511Z 2026-03-30T01:02:57.511Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:57.511Z 2026-03-30T01:02:57.511Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-03-30T01:02:57.511Z 2026-03-30T01:02:57.511Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:02:57.512Z 2026-03-30T01:02:57.511Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:57.512Z 2026-03-30T01:02:57.512Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:02:57.512Z 2026-03-30T01:02:57.512Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:02:57.515Z 2026-03-30T01:02:57.514Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:02:59.202Z 2026-03-30T01:02:59.202Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:03:10.062Z 2026-03-30T01:03:10.062Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:03:10.073Z 2026-03-30T01:03:10.072Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-03-30T01:03:10.113Z 2026-03-30T01:03:10.113Z [DEBUG] Bash tool error (42ms): Shell command failed
+
+2026-03-30T01:03:10.114Z 2026-03-30T01:03:10.114Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:03:10.114Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:03:10.114Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:03:10.114Z 2026-03-30T01:03:10.114Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:03:10.114Z 2026-03-30T01:03:10.114Z [DEBUG] autocompact: tokens=38288 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:03:10.115Z 2026-03-30T01:03:10.115Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:03:10.116Z 2026-03-30T01:03:10.116Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:03:10.116Z 2026-03-30T01:03:10.116Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:10.117Z 2026-03-30T01:03:10.117Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:03:10.117Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:03:10.117Z 2026-03-30T01:03:10.117Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:10.157Z 2026-03-30T01:03:10.157Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:10.157Z 2026-03-30T01:03:10.157Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:03:10.159Z 2026-03-30T01:03:10.159Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:03:33.881Z 2026-03-30T01:03:33.881Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:03:34.696Z 2026-03-30T01:03:34.696Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:03:34.702Z 2026-03-30T01:03:34.701Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-03-30T01:03:34.740Z 2026-03-30T01:03:34.740Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-03-30T01:03:34.740Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:03:34.741Z 2026-03-30T01:03:34.740Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+
+2026-03-30T01:03:34.741Z 2026-03-30T01:03:34.741Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:03:34.741Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+
+2026-03-30T01:03:34.741Z 2026-03-30T01:03:34.741Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:03:34.741Z 2026-03-30T01:03:34.741Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:03:34.742Z 2026-03-30T01:03:34.742Z [DEBUG] autocompact: tokens=77511 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:03:34.742Z 2026-03-30T01:03:34.742Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:03:34.743Z 2026-03-30T01:03:34.743Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:03:34.743Z 2026-03-30T01:03:34.743Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-03-30T01:03:34.743Z 2026-03-30T01:03:34.743Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:03:34.743Z 2026-03-30T01:03:34.743Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:34.744Z 2026-03-30T01:03:34.744Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:34.745Z 2026-03-30T01:03:34.745Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:03:34.745Z 2026-03-30T01:03:34.745Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:34.747Z 2026-03-30T01:03:34.747Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:03:46.835Z 2026-03-30T01:03:46.834Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:03:47.386Z 2026-03-30T01:03:47.386Z [DEBUG] bashToolHasPermission: tree-sitter unavailable, using legacy shell-quote path
+
+2026-03-30T01:03:47.395Z 2026-03-30T01:03:47.395Z [DEBUG] Spawning shell without login (-l flag skipped)
+
+2026-03-30T01:03:47.442Z 2026-03-30T01:03:47.442Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-03-30T01:03:47.442Z [DEBUG] Found 5 hook matchers in settings
+2026-03-30T01:03:47.442Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+
+2026-03-30T01:03:47.443Z 2026-03-30T01:03:47.443Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:03:47.443Z 2026-03-30T01:03:47.443Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:03:47.443Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:03:47.443Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:03:47.444Z 2026-03-30T01:03:47.444Z [DEBUG] autocompact: tokens=77795 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:03:47.444Z 2026-03-30T01:03:47.444Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:03:47.446Z 2026-03-30T01:03:47.446Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:47.446Z 2026-03-30T01:03:47.446Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:03:47.446Z 2026-03-30T01:03:47.446Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:03:47.446Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:03:47.446Z 2026-03-30T01:03:47.446Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:47.477Z 2026-03-30T01:03:47.477Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:03:47.477Z 2026-03-30T01:03:47.477Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:03:47.478Z 2026-03-30T01:03:47.478Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:03:53.505Z 2026-03-30T01:03:53.505Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:03:59.857Z 2026-03-30T01:03:59.857Z [ERROR] "SyntaxError: SyntaxError: Unexpected non-whitespace character after JSON at position 14 (line 1 column 15)\n    at JSON.parse (<anonymous>)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1065\n    at z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:61:21665)\n    at Object.assign.cache (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1184)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:733\n    at Array.map (<anonymous>)\n    at mm8 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:560)\n    at WmK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7697:7084)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7692:7914"
+
+2026-03-30T01:04:35.600Z 2026-03-30T01:04:35.600Z [ERROR] "SyntaxError: SyntaxError: Unexpected non-whitespace character after JSON at position 14 (line 1 column 15)\n    at JSON.parse (<anonymous>)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1065\n    at z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:61:21665)\n    at Object.assign.cache (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1184)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:733\n    at Array.map (<anonymous>)\n    at mm8 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:560)\n    at WmK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7697:7084)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7692:7914"
+
+2026-03-30T01:04:39.596Z 2026-03-30T01:04:39.596Z [DEBUG] "WebSearch tool input error: WebSearch failed due to the following issue:\nThe required parameter `query` is missing"
+
+2026-03-30T01:04:39.598Z 2026-03-30T01:04:39.597Z [DEBUG] "WebSearch tool input error: WebSearch failed due to the following issue:\nThe required parameter `query` is missing"
+
+2026-03-30T01:04:39.598Z 2026-03-30T01:04:39.598Z [DEBUG] "Skill tool input error: Skill failed due to the following issue:\nThe required parameter `skill` is missing"
+
+2026-03-30T01:04:39.599Z 2026-03-30T01:04:39.599Z [DEBUG] "Skill tool input error: Skill failed due to the following issue:\nThe required parameter `skill` is missing"
+
+2026-03-30T01:04:39.600Z 2026-03-30T01:04:39.600Z [DEBUG] "Skill tool input error: Skill failed due to the following issue:\nThe required parameter `skill` is missing"
+
+2026-03-30T01:04:40.988Z 2026-03-30T01:04:40.987Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+
+2026-03-30T01:04:40.988Z 2026-03-30T01:04:40.988Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.543; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:04:40.988Z 2026-03-30T01:04:40.988Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:04:40.988Z 2026-03-30T01:04:40.988Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:04:40.988Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:04:40.989Z 2026-03-30T01:04:40.989Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:04:41.023Z 2026-03-30T01:04:41.023Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:04:41.023Z 2026-03-30T01:04:41.023Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:04:41.030Z 2026-03-30T01:04:41.030Z [DEBUG] [API REQUEST] /coding/v1/messages source=web_fetch_apply
+
+2026-03-30T01:05:00.150Z 2026-03-30T01:05:00.149Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:05:14.997Z 2026-03-30T01:05:14.996Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+2026-03-30T01:05:14.996Z [DEBUG] Found 5 hook matchers in settings
+2026-03-30T01:05:14.997Z [DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+
+2026-03-30T01:05:14.997Z 2026-03-30T01:05:14.997Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+
+2026-03-30T01:05:14.997Z 2026-03-30T01:05:14.997Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:05:14.997Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:05:14.998Z 2026-03-30T01:05:14.998Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:05:14.999Z 2026-03-30T01:05:14.998Z [DEBUG] autocompact: tokens=40497 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:05:14.999Z 2026-03-30T01:05:14.999Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:05:15.001Z 2026-03-30T01:05:15.000Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:05:15.001Z 2026-03-30T01:05:15.001Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:05:15.001Z 2026-03-30T01:05:15.001Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:05:15.001Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:05:15.001Z 2026-03-30T01:05:15.001Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:05:15.034Z 2026-03-30T01:05:15.034Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:05:15.034Z 2026-03-30T01:05:15.034Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:05:15.036Z 2026-03-30T01:05:15.036Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:05:31.949Z 2026-03-30T01:05:31.948Z [DEBUG] Failed to check metrics opt-out status: Auth error: No API key available
+
+2026-03-30T01:05:31.949Z 2026-03-30T01:05:31.949Z [ERROR] "Error: Error: Auth error: No API key available\n    at $VY (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:302)\n    at Ai (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:446:3698)\n    at wVY (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:613)\n    at z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:61:21121)\n    at Mcq (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:903)\n    at Pcq (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:1317)\n    at CQ1.doExport (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:2035)\n    at CQ1.export (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2909:1738)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:446:111094\n    at YN4.with (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:446:16534)"
+
+2026-03-30T01:05:31.949Z 2026-03-30T01:05:31.949Z [DEBUG] Metrics export disabled by organization setting
+
+2026-03-30T01:05:46.044Z 2026-03-30T01:05:46.044Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:06:49.733Z 2026-03-30T01:06:49.733Z [ERROR] "SyntaxError: SyntaxError: Unexpected non-whitespace character after JSON at position 13 (line 1 column 14)\n    at JSON.parse (<anonymous>)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1065\n    at z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:61:21665)\n    at Object.assign.cache (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:117:1184)\n    at file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:733\n    at Array.map (<anonymous>)\n    at mm8 (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4676:560)\n    at WmK (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7697:7084)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:7692:7914"
+
+2026-03-30T01:06:50.566Z 2026-03-30T01:06:50.566Z [DEBUG] MCP server "happyclaw": Calling MCP tool: send_message
+
+2026-03-30T01:06:50.573Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"f9f3f6a9-0805-4868-8b2e-7a4
+2026-03-30T01:06:50.576Z 2026-03-30T01:06:50.575Z [ERROR] "MCP server \"happyclaw\" MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]"
+
+2026-03-30T01:06:50.576Z 2026-03-30T01:06:50.576Z [DEBUG] "MCP server \"happyclaw\": Tool 'send_message' failed after 0s: MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]"
+
+2026-03-30T01:06:50.576Z 2026-03-30T01:06:50.576Z [DEBUG] "mcp__happyclaw__send_message tool error (12ms): MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid"
+
+2026-03-30T01:06:50.576Z 2026-03-30T01:06:50.576Z [ERROR] "McpToolCallError: McpToolCallError: MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]\n    at ICq (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1948:108986)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async kHY (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1948:106071)\n    at async Object.call (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1948:125981)\n    at async w1z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4042:7134)"
+
+2026-03-30T01:06:50.579Z 2026-03-30T01:06:50.579Z [DEBUG] MCP server "happyclaw": Calling MCP tool: send_message
+
+2026-03-30T01:06:50.581Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"8d24c457-f969-4ee0-b0c8-7ec
+2026-03-30T01:06:50.582Z 2026-03-30T01:06:50.582Z [DEBUG] MCP server "happyclaw": Tool 'send_message' completed successfully in 3ms
+
+2026-03-30T01:06:50.584Z 2026-03-30T01:06:50.584Z [DEBUG] Getting matching hook commands for PostToolUse with query: mcp__happyclaw__send_message
+2026-03-30T01:06:50.584Z [DEBUG] Found 5 hook matchers in settings
+
+2026-03-30T01:06:50.584Z 2026-03-30T01:06:50.584Z [DEBUG] Matched 0 unique hooks for query "mcp__happyclaw__send_message" (0 before deduplication)
+
+2026-03-30T01:06:50.585Z 2026-03-30T01:06:50.585Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:06:50.585Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:06:50.585Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-03-30T01:06:50.585Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:06:50.586Z 2026-03-30T01:06:50.585Z [DEBUG] autocompact: tokens=42245 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:06:50.586Z 2026-03-30T01:06:50.586Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:06:50.588Z 2026-03-30T01:06:50.588Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:06:50.588Z 2026-03-30T01:06:50.588Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:06:50.588Z 2026-03-30T01:06:50.588Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:06:50.588Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:06:50.589Z 2026-03-30T01:06:50.589Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:06:50.621Z 2026-03-30T01:06:50.621Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:06:50.621Z 2026-03-30T01:06:50.621Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:06:50.623Z 2026-03-30T01:06:50.623Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:07:20.351Z 2026-03-30T01:07:20.351Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:07:26.872Z 2026-03-30T01:07:26.872Z [DEBUG] MCP server "happyclaw": Calling MCP tool: send_message
+
+2026-03-30T01:07:26.874Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"782fbf9b-8fe2-4ee4-a568-455
+2026-03-30T01:07:26.875Z 2026-03-30T01:07:26.875Z [ERROR] "MCP server \"happyclaw\" MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]"
+
+2026-03-30T01:07:26.875Z 2026-03-30T01:07:26.875Z [DEBUG] "MCP server \"happyclaw\": Tool 'send_message' failed after 0s: MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]"
+
+2026-03-30T01:07:26.876Z 2026-03-30T01:07:26.876Z [DEBUG] "mcp__happyclaw__send_message tool error (4ms): MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid"
+
+2026-03-30T01:07:26.876Z 2026-03-30T01:07:26.876Z [ERROR] "McpToolCallError: McpToolCallError: MCP error -32602: Input validation error: Invalid arguments for tool send_message: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"text\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]\n    at ICq (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1948:108986)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async kHY (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1948:106071)\n    at async Object.call (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1948:125981)\n    at async w1z (file:///Users/zhiwei/Downloads/happyclaw/container/agent-runner/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:4042:7134)"
+
+2026-03-30T01:07:26.879Z 2026-03-30T01:07:26.878Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:07:26.878Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:07:26.878Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:07:26.879Z 2026-03-30T01:07:26.879Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:07:26.879Z 2026-03-30T01:07:26.879Z [DEBUG] autocompact: tokens=41901 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:07:26.880Z 2026-03-30T01:07:26.880Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:07:26.883Z 2026-03-30T01:07:26.883Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:07:26.883Z 2026-03-30T01:07:26.883Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:07:26.883Z 2026-03-30T01:07:26.883Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-03-30T01:07:26.883Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:07:26.883Z 2026-03-30T01:07:26.883Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:07:26.923Z 2026-03-30T01:07:26.922Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:07:26.923Z 2026-03-30T01:07:26.923Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:07:26.925Z 2026-03-30T01:07:26.924Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:07:51.275Z 2026-03-30T01:07:51.275Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:07:53.745Z 2026-03-30T01:07:53.745Z [DEBUG] MCP server "happyclaw": Calling MCP tool: send_message
+
+2026-03-30T01:07:53.747Z [ProcessTransport] Writing to stdin: {"type":"control_response","response":{"subtype":"success","request_id":"cf7677a2-994d-4ab3-9236-a2f
+2026-03-30T01:07:53.748Z 2026-03-30T01:07:53.748Z [DEBUG] MCP server "happyclaw": Tool 'send_message' completed successfully in 3ms
+
+2026-03-30T01:07:53.750Z 2026-03-30T01:07:53.750Z [DEBUG] Getting matching hook commands for PostToolUse with query: mcp__happyclaw__send_message
+2026-03-30T01:07:53.750Z [DEBUG] Found 5 hook matchers in settings
+2026-03-30T01:07:53.750Z [DEBUG] Matched 0 unique hooks for query "mcp__happyclaw__send_message" (0 before deduplication)
+
+2026-03-30T01:07:53.751Z 2026-03-30T01:07:53.751Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-03-30T01:07:53.751Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-03-30T01:07:53.751Z [DEBUG] Hooks: Found 0 total hooks in registry
+
+2026-03-30T01:07:53.751Z 2026-03-30T01:07:53.751Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+
+2026-03-30T01:07:53.752Z 2026-03-30T01:07:53.752Z [DEBUG] autocompact: tokens=42081 threshold=167000 effectiveWindow=180000
+
+2026-03-30T01:07:53.753Z 2026-03-30T01:07:53.753Z [DEBUG] Tool search disabled: ToolSearchTool is not available (may have been disallowed via disallowedTools).
+
+2026-03-30T01:07:53.755Z 2026-03-30T01:07:53.755Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.87.7b6; cc_entrypoint=sdk-ts; cch=00000;
+
+2026-03-30T01:07:53.755Z 2026-03-30T01:07:53.755Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:07:53.755Z 2026-03-30T01:07:53.755Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+
+2026-03-30T01:07:53.756Z 2026-03-30T01:07:53.755Z [DEBUG] [API:auth] OAuth token check starting
+
+2026-03-30T01:07:53.756Z 2026-03-30T01:07:53.756Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:07:53.757Z 2026-03-30T01:07:53.757Z [DEBUG] [API:auth] OAuth token check complete
+
+2026-03-30T01:07:53.757Z 2026-03-30T01:07:53.757Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:07:53.760Z 2026-03-30T01:07:53.760Z [DEBUG] [API REQUEST] /coding/v1/messages source=sdk
+
+2026-03-30T01:07:55.604Z 2026-03-30T01:07:55.604Z [DEBUG] Stream started - received first chunk
+
+2026-03-30T01:08:14.180Z 2026-03-30T01:08:14.180Z [DEBUG] Fast mode unavailable: Fast mode is not available in the Agent SDK
+
+2026-03-30T01:08:19.952Z 2026-03-30T01:08:19.951Z [DEBUG] LSP server manager shut down successfully
+
+2026-03-30T01:08:19.954Z 2026-03-30T01:08:19.954Z [DEBUG] Metrics export disabled by organization setting
+
+2026-03-30T01:08:19.954Z 2026-03-30T01:08:19.954Z [DEBUG] BigQuery metrics exporter flush complete
+2026-03-30T01:08:19.954Z [DEBUG] BigQuery metrics exporter flush complete
+2026-03-30T01:08:19.954Z [DEBUG] BigQuery metrics exporter shutdown complete
+
+2026-03-30T01:08:19.955Z 2026-03-30T01:08:19.955Z [DEBUG] Cleaned up session snapshot: /Users/zhiwei/Downloads/happyclaw/data/sessions/task-177476358046/.claude/shell-snapshots/snapshot-zsh-1774832456946-wwi805.sh
+
+2026-03-30T01:08:19.956Z 2026-03-30T01:08:19.955Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-03-30T01:08:19.955Z [DEBUG] Found 0 hook matchers in settings
+2026-03-30T01:08:19.955Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)
+

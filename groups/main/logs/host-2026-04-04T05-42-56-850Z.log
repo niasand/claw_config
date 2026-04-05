@@ -1,0 +1,51 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-04-04T05:42:56.850Z
+Group: QQ用户
+IsMain: true
+Duration: 66683ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 3526 chars
+Session ID: new
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: new, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-1c1e4072-3c54-4a82-b038-6a594d9656d8.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: b337c2fa-6b3c-4f84-9815-7710370cb774
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=好，你先看看 PM2 的方案，装好了跟我说一声，我帮你配。
+[agent-runner] Usage: input=19533 output=21 cost=$0.0676425 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] Query done. Messages: 3, results: 1, lastAssistantUuid: b78b8663-87e7-4d53-a824-b26ea31e1b75, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Received SIGINT, exiting gracefully
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"好，你先看看 PM","turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"},"turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"2 的方案，装好了跟我说一声，","turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"},"turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"我帮你配。","turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"},"turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"好，你先看看 PM2 的方案，装好了跟我说一声，我帮你配。","newSessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774","sdkMessageUuid":"b78b8663-87e7-4d53-a824-b26ea31e1b75","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"af218de2-4e16-4caf-a8bd-7b9510825797","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":19533,"outputTokens":21,"cacheReadInputTokens":29095,"cacheCreationInputTokens":0,"costUSD":0.0676425,"durationMs":3632,"numTurns":1,"modelUsage":{"glm-5-turbo":{"inputTokens":19533,"outputTokens":21,"costUSD":0.0676425}}},"turnId":"ipc-1775281317808-pq28io","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"},"turnId":"ipc-1775281317808-pq28io","sessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"b337c2fa-6b3c-4f84-9815-7710370cb774"}
+---HAPPYCLAW_OUTPUT_END---

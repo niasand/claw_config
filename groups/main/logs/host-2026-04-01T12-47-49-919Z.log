@@ -1,0 +1,38 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-04-01T12:47:49.919Z
+Group: QQ用户
+IsMain: true
+Duration: 9733ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 140 chars
+Session ID: b0180e1f-2482-46c5-8534-22f5d2c2017f
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: b0180e1f-2482-46c5-8534-22f5d2c2017f, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-1644d9b1-3eb4-4626-a035-a7ff78ecfce8.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: b0180e1f-2482-46c5-8534-22f5d2c2017f
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid,error]
+[agent-runner] [msg #3] type=result
+[agent-runner] Result #1: subtype=success text=Failed to authenticate. API Error: 403 {"error":{"type":"permission_error","message":"You've reached your usage limit for this billing cycle. Your quota will be refreshed in the next cycle. Upgrade to
+[agent-runner] Usage: input=0 output=0 cost=$0 turns=1
+[agent-runner] Received SIGTERM, exiting gracefully
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":"Failed to authenticate. API Error: 403 {\"error\":{\"type\":\"permission_error\",\"message\":\"You've reached your usage limit for this billing cycle. Your quota will be refreshed in the next cycle. Upgrade to get more: https://www.kimi.com/code/console?from=quota-upgrade\"},\"type\":\"error\"}","newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f","sdkMessageUuid":"b3d8627b-a930-4e49-af8d-5bdcae987d14","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"05d1d1c5-52a0-4c0f-aa66-b3a2635d0fcb","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":0,"outputTokens":0,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0,"durationMs":713,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":0,"outputTokens":0,"costUSD":0}}},"turnId":"ipc-1775047663340-26qbah","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"},"turnId":"ipc-1775047663340-26qbah","sessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"b0180e1f-2482-46c5-8534-22f5d2c2017f"}
+---HAPPYCLAW_OUTPUT_END---

@@ -1,0 +1,109 @@
+{
+  "skills": {
+    "skill-creator": {
+      "packageName": "anthropics/skills@skill-creator",
+      "installedAt": "2026-03-27T15:06:38.168Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-import": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-export": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-bitable": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-search": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-msg": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-board": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-chat": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-doc-guide": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-write": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-toolkit": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-auth": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-perm": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "feishu-cli-read": {
+      "packageName": "riba2534/feishu-cli",
+      "installedAt": "2026-03-27T15:10:26.302Z",
+      "source": "skills.sh"
+    },
+    "opencli": {
+      "packageName": "jackwener/opencli",
+      "installedAt": "2026-03-27T15:24:20.952Z",
+      "source": "skills.sh"
+    },
+    "follow-builders": {
+      "packageName": "zarazhangrui/follow-builders",
+      "installedAt": "2026-03-30T16:03:59.546Z",
+      "source": "skills.sh"
+    },
+    "defuddle": {
+      "packageName": "kepano/obsidian-skills",
+      "installedAt": "2026-04-03T13:48:39.000Z",
+      "source": "skills.sh"
+    },
+    "obsidian-markdown": {
+      "packageName": "kepano/obsidian-skills",
+      "installedAt": "2026-04-03T13:48:39.000Z",
+      "source": "skills.sh"
+    },
+    "obsidian-bases": {
+      "packageName": "kepano/obsidian-skills",
+      "installedAt": "2026-04-03T13:48:39.000Z",
+      "source": "skills.sh"
+    },
+    "obsidian-cli": {
+      "packageName": "kepano/obsidian-skills",
+      "installedAt": "2026-04-03T13:48:39.000Z",
+      "source": "skills.sh"
+    },
+    "json-canvas": {
+      "packageName": "kepano/obsidian-skills",
+      "installedAt": "2026-04-03T13:48:39.000Z",
+      "source": "skills.sh"
+    }
+  }
+}

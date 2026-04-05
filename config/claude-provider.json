@@ -1,0 +1,41 @@
+{
+  "version": 4,
+  "providers": [
+    {
+      "id": "7c77b535715204ce",
+      "name": "GLM",
+      "type": "third_party",
+      "enabled": true,
+      "weight": 1,
+      "anthropicBaseUrl": "https://open.bigmodel.cn/api/anthropic",
+      "anthropicModel": "glm-5-turbo",
+      "secrets": {
+        "iv": "l805SJ0EP9CQOKjj",
+        "tag": "NtE8VvMlFE3RxYFi9WaIog==",
+        "data": "J6RoVfkBpDTdXmmifoRIjQckDe/w1UJW6VNHPr1JsOZsUQh4RcX7mdIdRSYI8ksm2Mew6OVSQ7GpO7KBbxDZnWhZbinuUHpxq5cfS6H05QkDDjl/Sgk6DuAsSEaE6z9X3yAITZ1cbU56DOmpLd0IyHZift7WoIUA/ZoAg4WiUZOhGWyx7GoCiM3d0ai2TrZHlN3Yel/81w=="
+      },
+      "updatedAt": "2026-04-04T02:28:58.850Z"
+    },
+    {
+      "id": "a17e3bc3d64c1fa5",
+      "name": "Kimi",
+      "type": "third_party",
+      "enabled": false,
+      "weight": 1,
+      "anthropicBaseUrl": "https://api.kimi.com/coding/",
+      "anthropicModel": "kimi2.5",
+      "secrets": {
+        "iv": "oFTgK0U8x1rcAkX0",
+        "tag": "tYywOjW7T0UvTHEHm2n+hg==",
+        "data": "K63JyQ//E1HzaFwnfNSM7GJWf/Sv4+38vcdrp73eQTD7+RIF+UAPLpySWSpiGTH2pDpU1jA/HfOvmomfFaXWKTNJCbZzQ5cXZNDcGSytt72mWKlMtfyVwnuGcCMklMyNId41IrjKdu/sZqqbYUxrBN1+eDJ8Et9M9mMQA/OIt6GW9xZhgDvTkenyhOrZBk/RA9Uajh7S2OpcvBrz4I5jKEh2oIfq+sZ7ierPT0/v"
+      },
+      "updatedAt": "2026-04-04T02:28:59.860Z"
+    }
+  ],
+  "balancing": {
+    "strategy": "round-robin",
+    "unhealthyThreshold": 3,
+    "recoveryIntervalMs": 300000
+  },
+  "updatedAt": "2026-04-04T02:28:59.861Z"
+}

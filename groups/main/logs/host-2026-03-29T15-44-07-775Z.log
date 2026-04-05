@@ -1,0 +1,62 @@
+=== Host Agent Run Log ===
+Timestamp: 2026-03-29T15:44:07.776Z
+Group: QQ用户
+IsMain: true
+Duration: 1815135ms
+Exit Code: 0
+Stdout Truncated: false
+Stderr Truncated: false
+
+=== Input Summary ===
+Prompt length: 3049 chars
+Session ID: new
+Working Directory: /Users/zhiwei/Downloads/happyclaw/data/groups/main
+
+=== Stderr ===
+[agent-runner] Received input for group: main
+[agent-runner] Starting query (session: new, resumeAt: latest)...
+SDK debug logs: /Users/zhiwei/Downloads/happyclaw/data/sessions/main/.claude/debug/sdk-c9229a85-0040-4d95-bd6a-b94a62f1031b.txt
+[agent-runner] [msg #1] type=system/init
+[agent-runner] Session initialized: 5177a041-be44-4ffd-837a-e33885c75c5d
+[agent-runner] [stream] parent=null block=thinking
+[agent-runner] [msg #2] type=assistant parent_tool_use_id=NULL content_types=[thinking] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [stream] parent=null block=text
+[agent-runner] [msg #3] type=assistant parent_tool_use_id=NULL content_types=[text] keys=[type,message,parent_tool_use_id,session_id,uuid]
+[agent-runner] [msg #4] type=result
+[agent-runner] Result #1: subtype=success text= 晚安，好梦 😴 明天见！
+[agent-runner] Usage: input=41529 output=49 cost=$0.12532200000000002 turns=1
+[agent-runner] Post-result timeout (5s), closing stream
+[agent-runner] Query done. Messages: 4, results: 1, lastAssistantUuid: ec0a23e7-1a6c-4608-ab0a-dd5029377afa, closedDuringQuery: false, interruptedDuringQuery: false
+[agent-runner] Query ended, waiting for next IPC message...
+[agent-runner] Close sentinel received, exiting
+[agent-runner] Exiting with code 0, SIGKILL safety net in 5s
+
+
+=== Stdout ===
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":" 用户说准备去洗澡睡觉了，这是一个简单的道别消息。","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":"我应该礼貌地回应，祝他晚安。\n\n根据系统上下文，","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":"这是 QQ 用户的消息，我应该用简体中文回复，","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":" 晚安，好梦 😴 ","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"thinking_delta","text":"保持简洁友好。","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"text_delta","text":"明天见！","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":" 晚安，好梦 😴 明天见！","newSessionId":"5177a041-be44-4ffd-837a-e33885c75c5d","sdkMessageUuid":"ec0a23e7-1a6c-4608-ab0a-dd5029377afa","sourceKind":"sdk_final","finalizationReason":"completed","turnId":"49661e84-b03e-467b-bc1b-2b60866ce440","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"stream","result":null,"streamEvent":{"eventType":"usage","usage":{"inputTokens":41529,"outputTokens":49,"cacheReadInputTokens":0,"cacheCreationInputTokens":0,"costUSD":0.12532200000000002,"durationMs":10629,"numTurns":1,"modelUsage":{"kimi2.5":{"inputTokens":41529,"outputTokens":49,"costUSD":0.12532200000000002}}},"turnId":"ipc-1774797247507-sdypm8","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"},"turnId":"ipc-1774797247507-sdypm8","sessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---
+---HAPPYCLAW_OUTPUT_START---
+{"status":"success","result":null,"newSessionId":"5177a041-be44-4ffd-837a-e33885c75c5d"}
+---HAPPYCLAW_OUTPUT_END---

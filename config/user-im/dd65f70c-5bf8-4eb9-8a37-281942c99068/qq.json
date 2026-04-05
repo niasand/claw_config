@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "appId": "1903677686",
+  "enabled": true,
+  "updatedAt": "2026-04-04T02:27:52.342Z",
+  "secret": {
+    "iv": "+4LGyunNELn/cI1L",
+    "tag": "NZY2OIqUYIpcoBaKAftMYA==",
+    "data": "PxMFYGH3/mG7lgd19kUX9Gv3zfgslDX5g0BnFJxvuKk="
+  }
+}
